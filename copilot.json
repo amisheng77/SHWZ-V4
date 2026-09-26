@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.2",
+  "book": "山河无主·乌金与天命",
+  "anchor_batch": [
+    "CH011",
+    "CH012",
+    "CH013"
+  ],
+  "pov_anchors": {
+    "天邑女史": "CH011",
+    "公子渤": "CH012",
+    "朔国工匠": "CH013"
+  },
+  "global_forbidden_words": [
+    "控制欲",
+    "边界感",
+    "执行力",
+    "自我实现",
+    "情绪价值"
+  ],
+  "metrics_baseline": {
+    "对话占比": [
+      9.1,
+      35.3,
+      15.7
+    ],
+    "金句密度_max": 3
+  },
+  "provenance_policy": "记录实际 model-id/date/engine，不假装锁定模型",
+  "registry": {
+    "terms": "docs/registry/terms.md",
+    "owners": "docs/registry/owners.md"
+  },
+  "open_threads": "docs/13_开放伏笔.md",
+  "docs_map": {
+    "00_创作宪法": "docs/00_创作宪法.md",
+    "01_世界观": "docs/01_世界观架构.md",
+    "02_地理": "docs/02_地理人口经济军力.md",
+    "03_人物Bible": "docs/03_人物Bible.md",
+    "04_POV档案": "docs/04_POV人物档案.md",
+    "05_四人关系": "docs/05_渤骥菖铎关系.md",
+    "06_时间线": "docs/06_总时间线.md",
+    "07_章节骨架": "docs/07_章节骨架.md",
+    "08_饕餮乌金": "docs/08_饕餮与乌金.md",
+    "09_暗线": "docs/09_暗线江湖.md",
+    "10_文体": "docs/10_叙事结构与文体.md",
+    "11_工作流": "docs/11_一致性工作流.md",
+    "12_优先级": "docs/12_创作优先级.md"
+  }
+}
