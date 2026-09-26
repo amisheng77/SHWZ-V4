@@ -5,7 +5,7 @@
   "CH011": {
     "title": "天下来客",
     "pov": "天邑女史",
-    "arc": "Y4大会盟",
+    "arc": "Y4大朝会",
     "prev": "",
     "status": "locked",
     "contract": "work/contracts/Y4_Chapter11_Contract_V0.1.md",
@@ -61,15 +61,18 @@
   "CH012": {
     "title": "学宫与王庭",
     "pov": "公子渤",
-    "arc": "Y4大会盟",
+    "arc": "Y4大朝会",
     "prev": "CH011",
-    "status": "contracted",
+    "status": "reviewed",
     "contract": "work/contracts/CH012_Contract_V0.1.md",
     "approved": {
       "contract": "2026-09-26T12:21:27+08:00",
       "draft": null
     },
-    "draft": null,
+    "draft": {
+      "path": "drafts/CH012_学宫与王庭_V0.1.md",
+      "sha256": "ccf88edaf9442d0c51950d2d8d53dfc04682cb3d2ffc9411ed1a5971e5877c18"
+    },
     "revision_rounds": 0,
     "revisions": [
       {
@@ -83,26 +86,34 @@
     ],
     "review": {
       "l0": {
-        "ok": false,
-        "report": null,
-        "audited_draft_sha": null
+        "ok": true,
+        "report": "work/audits/CH012_L0.txt",
+        "audited_draft_sha": "ccf88edaf9442d0c51950d2d8d53dfc04682cb3d2ffc9411ed1a5971e5877c18"
       },
       "l1": {
-        "ok": false,
-        "report": null,
-        "audited_draft_sha": null
+        "ok": true,
+        "report": "work/audits/CH012_L1_report.md",
+        "audited_draft_sha": "ccf88edaf9442d0c51950d2d8d53dfc04682cb3d2ffc9411ed1a5971e5877c18"
       },
       "l2": {
-        "ok": false,
-        "report": null,
-        "audited_draft_sha": null
+        "ok": true,
+        "report": "work/audits/CH012_L2_report.md",
+        "audited_draft_sha": "ccf88edaf9442d0c51950d2d8d53dfc04682cb3d2ffc9411ed1a5971e5877c18"
       }
     },
-    "waivers": [],
+    "waivers": [
+      {
+        "id": "l2-golden-density",
+        "kind": "l2",
+        "reason": "作者裁决 2026-09-26：学宫辩题章允许格言体超纲（场景豁免），仅限本章",
+        "by": "作者",
+        "ts": "2026-09-26T19:09:16+08:00"
+      }
+    ],
     "delta": null,
     "pack": {
       "path": "work/packs/CH012_pack.md",
-      "sha256": "8a9a7bbba668f25810b0c538dedbf3bd6133e8765118c841f2e6b8fdd2fa5e9f",
+      "sha256": "57c2ca6c8f8aea3c7d503bcf8742436dd11924ff0735d62f9de25fe20ae3044a",
       "schema": "1.3",
       "files": {
         "b": "work/packs/CH012_pack_B_设定卡.md",
@@ -119,7 +130,7 @@
   "CH013": {
     "title": "北车入邑",
     "pov": "朔国工匠",
-    "arc": "Y4大会盟",
+    "arc": "Y4大朝会",
     "prev": "CH012",
     "status": "planned",
     "contract": null,

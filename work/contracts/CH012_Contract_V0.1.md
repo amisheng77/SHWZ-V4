@@ -1,26 +1,26 @@
 <!-- nc:meta
-{"id":"CH012","title":"学宫与王庭","pov":"公子渤","arc":"Y4大会盟","prev":"CH011",
+{"id":"CH012","title":"学宫与王庭","pov":"公子渤","arc":"Y4大朝会","prev":"CH011",
 "characters":["公子渤","杜若","骥","菖"],
 "canon_refs":[
-  {"path":"docs/arcs/Y4_大会盟.md","heading":"第二层：学宫","type":"canon"},
-  {"path":"docs/arcs/Y4_大会盟.md","heading":"8. 沧国女商人","type":"canon"},
-  {"path":"docs/arcs/Y4_大会盟.md","heading":"10. Y4情报战","type":"canon"}
+  {"path":"docs/arcs/Y4_大朝会.md","heading":"第二层：学宫","type":"canon"},
+  {"path":"docs/arcs/Y4_大朝会.md","heading":"8. 沧国女商人","type":"canon"},
+  {"path":"docs/arcs/Y4_大朝会.md","heading":"10. Y4情报战","type":"canon"}
 ],
 "research_refs":[],
-"forbidden_z":["四公子","人脉","资源整合","顶层设计","价值观","共情","认知"],
+"forbidden_z":["四公子","人脉","资源整合","顶层设计","价值观","共情","认知","法家","道家","儒家","墨家","墨者"],
 "voice_card":"注意力：人、座次、沉默、承诺、信用、谁没有来；语言短、稳、少解释；被拒可收手，不快赔礼；政治越大写越具体（席位、礼单、车马、随员）；对话不做金句"}
 -->
 # CH012 Chapter Contract V0.1
 ## 暂定标题：《学宫与王庭》
 
 > 状态：rewrite-reset 后按 Canon V3 新拟
-> Canon 依据：live main ＋ docs/00—14 ＋ docs/arcs/Y4_大会盟.md
+> Canon 依据：live main ＋ docs/00—14 ＋ docs/arcs/Y4_大朝会.md
 
 ## 基本信息
 
 - Chapter ID：CH012
 - 暂定标题：学宫与王庭
-- 时间：Y4 大会盟第 5 日（学宫活动日）
+- 时间：Y4 大朝会第 5 日（学宫活动日）
 - 地点：天邑·学宫／王庭驿馆区
 - POV：公子渤
 - 预计字数：5000—6500
