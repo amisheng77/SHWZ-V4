@@ -1,7 +1,7 @@
 # SHWZ_Current_Context
 
 > 项目：《山河无主》第一部《乌金与天命》
-> 状态：**Canon V3 重构完成（2026-09-26，D1—D30 全量对齐；地理模型 V0.2 审核收敛）**；CH011 已 lock；CH012 contracted＋pack v2 就绪
+> 状态：**Canon V3.1（2026-09-26，D1—D35：D32 Y4 重定性＝天邑大朝会＋学宫祭酒大会／D33 Y4 人物矩阵／D34 命名官职批次（芮、湄峤、五封君、公子函、公子斯、大司徒、守绳）／D35 状态登记与出席资格；D36 诸子气质映射——法＝仲符/道＝太史＋女史帧/墨＝执规守绳临风/儒＝渤，正文不点名流派）**；CH011 已 lock；CH012 contracted＋drafted（重审链中）
 > Source of Truth：live `main` ＋ 本文件。新窗口接续：读本文件 → 按任务读 owner 文档。
 
 ---
@@ -10,7 +10,7 @@
 
 | 模块 | 文件 |
 |---|---|
-| 创作宪法（总原则＋D1—D30 决策登记） | `docs/00_创作宪法.md` |
+| 创作宪法（总原则＋D1—D35 决策登记） | `docs/00_创作宪法.md` |
 | 世界观总纲 | `docs/01_世界观架构.md` |
 | 地理/人口/经济/军力 | `docs/02_地理人口经济军力.md` |
 | 人物历史人格基准（最高层） | `docs/03_人物Bible.md` |
@@ -24,7 +24,7 @@
 | 一致性工作流 | `docs/11_一致性工作流.md` |
 | 优先级与状态 | `docs/12_创作优先级.md` |
 | 开放伏笔 ｜ 连续性台账 | `docs/13_开放伏笔.md` ｜ `docs/14_连续性台账.md` |
-| Y4 场景骨架 ｜ 命名/归属 | `docs/arcs/Y4_大会盟.md` ｜ `docs/registry/` |
+| Y4 场景骨架 ｜ 命名/归属 | `docs/arcs/Y4_大朝会.md` ｜ `docs/registry/` |
 | 动态故事状态 | `SHWZ_Story_State.md` |
 | 章节合同/审计 | `work/contracts/`、`work/audits/`、`state/chapters.json` |
 | 历史素材 | `research/` |
