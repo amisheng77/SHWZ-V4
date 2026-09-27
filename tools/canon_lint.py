@@ -41,7 +41,7 @@ for path in SCAN:
         continue  # terms 改名记录合法提及死名
     t = read(os.path.relpath(path, ROOT))
     for ln in t.split('\n'):
-        if any(k in ln for k in ['→', '原工作名', '避', '已废止', '原文', '改名']):
+        if any(k in ln for k in ['→', '原工作名', '避', '已废止', '原文', '改名', '本名', '换皮', '换名']):
             continue
         for w in DEAD:
             if w in ln:
