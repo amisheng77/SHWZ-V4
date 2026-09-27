@@ -6,11 +6,11 @@
 
 继续 SHWZ 项目（长篇低魔东方政治幻想小说《山河无主》，第一部《乌金与天命》）。
 
-**Source of Truth**：GitHub `amisheng77/SHWZ-V3` 的 live `main`（本地路径 `~/Desktop/CC/novel_copilot/projects/shwz`）。**不要从旧仓库 SHWZ 或 archive/ 恢复任何设定。**
+**Source of Truth（V4 六文档收敛制，00—05＋registry）**：GitHub `amisheng77/SHWZ-V4` 的 live `main`（本地路径 `~/Desktop/CC/novel_copilot/projects/shwz-v4`）。**不要从旧仓库 SHWZ 或 archive/ 恢复任何设定。**
 
 **入口文件**：先读 `SHWZ_Current_Context.md`，再按任务读对应 owner 文档（归属表见 `docs/registry/owners.md`，命名唯一权威见 `docs/registry/terms.md`——含音义谶注记节）。
 
-**当前状态（2026-09-27）**：Canon V3.3（**D1—D56**（D38—D56＝旧线今日批次移植）：D32 Y4 重定性＝天邑大朝会＋学宫祭酒大会；D33 Y4 人物矩阵；D34 命名官职批次；D35 状态登记＋出席资格；D36 诸子气质映射；D37 师承三线；D31 礼制与称谓已落 canon）。CH011、CH012（学宫与王庭）已 lock；CH013 待新合同（canon_refs 应带 docs/15_礼制与称谓.md）。
+**当前状态（2026-09-27）**：Canon V3.3（**D1—D56**（D38—D56＝旧线今日批次移植）：D32 Y4 重定性＝天邑大朝会＋学宫祭酒大会；D33 Y4 人物矩阵；D34 命名官职批次；D35 状态登记＋出席资格；D36 诸子气质映射；D37 师承三线；D31 礼制与称谓已落 canon）。CH011、CH012（学宫与王庭）已 lock；CH013 待新合同（canon_refs 应带 docs/02_国家设定.md）。
 
 **按角色执行**：
 

@@ -1,10 +1,10 @@
 # PACK CH012 | generated 2026-09-26T17:29:46 | engine v1.5.0 | schema 1.3（三文件分工）
 sources:
 
-  - {path: docs/03_人物Bible.md, heading: "公子渤", sha256: 27d808ea5c8adb37…, type: canon}
-  - {path: docs/03_人物Bible.md, heading: "杜若", sha256: 86b3a913f3be2296…, type: canon}
-  - {path: docs/03_人物Bible.md, heading: "骥", sha256: 4ba89941d8905616…, type: canon}
-  - {path: docs/03_人物Bible.md, heading: "菖", sha256: 6d7417e6bafd762d…, type: canon}
+  - {path: docs/03_人物设定.md, heading: "公子渤", sha256: 27d808ea5c8adb37…, type: canon}
+  - {path: docs/03_人物设定.md, heading: "杜若", sha256: 86b3a913f3be2296…, type: canon}
+  - {path: docs/03_人物设定.md, heading: "骥", sha256: 4ba89941d8905616…, type: canon}
+  - {path: docs/03_人物设定.md, heading: "菖", sha256: 6d7417e6bafd762d…, type: canon}
   - {path: docs/arcs/Y4_大朝会.md, heading: "第二层：学宫", sha256: cb3000b9c14849bc…, type: canon}
   - {path: docs/arcs/Y4_大朝会.md, heading: "8. 沧国女商人", sha256: 5beb071f018c1767…, type: canon}
   - {path: docs/arcs/Y4_大朝会.md, heading: "10. Y4情报战", sha256: 27e1efc21f5809b2…, type: canon}
