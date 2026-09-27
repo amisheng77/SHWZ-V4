@@ -27,7 +27,7 @@ if declared and dnums:
         issues.append(f'[版本头] Current_Context 声明 D1—D{declared[0]}，宪法 D 表实至 D{max(dnums)}')
 
 # ── 检查3：旧名白名单（改名史上的死名零出现） ──
-DEAD = ['高离', '桑弧', '刺桑案', '公子关', '曾国', '淮国', '吴国', '执规（',
+DEAD = ['饕餮', '高离', '桑弧', '刺桑案', '公子关', '曾国', '淮国', '吴国', '执规（',
         'docs/01_世界观架构', 'docs/02_地理', 'docs/03_人物Bible', 'docs/04_POV',
         'docs/05_渤骥菖铎', 'docs/06_总时间线', 'docs/07_章节骨架', 'docs/08_饕餮',
         'docs/09_暗线', 'docs/10_叙事', 'docs/11_一致性', 'docs/12_创作', 'docs/13_开放',
