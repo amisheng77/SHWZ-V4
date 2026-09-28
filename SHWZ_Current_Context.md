@@ -43,7 +43,7 @@
 
 # 4. 新窗口接续方式
 
-> 继续 SHWZ 项目：以 GitHub `amisheng77/SHWZ` 的 live `main` ＋ `SHWZ_Current_Context.md` 为 Source of Truth；不要从 archive 恢复已被替代的设定；命名以 `docs/registry/terms.md` 为准。
+> 继续 SHWZ 项目：以 GitHub `amisheng77/SHWZ-V4` 的 live `main` ＋ `SHWZ_Current_Context.md` 为 Source of Truth；不要从 archive 恢复已被替代的设定；命名以 `docs/registry/terms.md` 为准。
 
 ---
 
