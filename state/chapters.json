@@ -129,7 +129,7 @@
   },
   "CH013": {
     "title": "北车入邑",
-    "pov": "朔国工匠",
+    "pov": "终楠",
     "arc": "Y4大朝会",
     "prev": "CH012",
     "status": "planned",
@@ -176,5 +176,3080 @@
       "date": "2026-09-24"
     },
     "tag": "chapters/CH013"
+  },
+  "CH014": {
+    "title": "北车·正章",
+    "pov": "临风",
+    "arc": "Y4大朝会",
+    "prev": "CH013",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH014"
+  },
+  "CH015": {
+    "title": "北车·正章",
+    "pov": "女史",
+    "arc": "Y4大朝会",
+    "prev": "CH014",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH015"
+  },
+  "CH016": {
+    "title": "摩擦与犒师",
+    "pov": "舟月（杜若经窗）",
+    "arc": "",
+    "prev": "CH015",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH016"
+  },
+  "CH017": {
+    "title": "摩擦与犒师",
+    "pov": "舟月（杜若经窗）",
+    "arc": "",
+    "prev": "CH016",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH017"
+  },
+  "CH018": {
+    "title": "灰海蛟窗",
+    "pov": "舟月",
+    "arc": "",
+    "prev": "CH017",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH018"
+  },
+  "CH019": {
+    "title": "灰海蛟窗",
+    "pov": "舟月",
+    "arc": "",
+    "prev": "CH018",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH019"
+  },
+  "CH020": {
+    "title": "蛟窗·决",
+    "pov": "公子渤",
+    "arc": "",
+    "prev": "CH019",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH020"
+  },
+  "CH021": {
+    "title": "探矿",
+    "pov": "阿瑶×临风",
+    "arc": "",
+    "prev": "CH020",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH021"
+  },
+  "CH022": {
+    "title": "探矿",
+    "pov": "阿瑶×临风",
+    "arc": "",
+    "prev": "CH021",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH022"
+  },
+  "CH023": {
+    "title": "成器",
+    "pov": "终楠（仲符窗）",
+    "arc": "",
+    "prev": "CH022",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH023"
+  },
+  "CH024": {
+    "title": "读兽者",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH023",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH024"
+  },
+  "CH025": {
+    "title": "收束与账",
+    "pov": "渤（杜若经窗）",
+    "arc": "",
+    "prev": "CH024",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH025"
+  },
+  "CH026": {
+    "title": "储位起",
+    "pov": "骥（窗，仲符经）",
+    "arc": "",
+    "prev": "CH025",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH026"
+  },
+  "CH027": {
+    "title": "联盟雏形",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH026",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH027"
+  },
+  "CH028": {
+    "title": "联盟雏形",
+    "pov": "仲符",
+    "arc": "",
+    "prev": "CH027",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH028"
+  },
+  "CH029": {
+    "title": "第一滴黑",
+    "pov": "仲符",
+    "arc": "",
+    "prev": "CH028",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH029"
+  },
+  "CH030": {
+    "title": "洪水",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH029",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH030"
+  },
+  "CH031": {
+    "title": "洪水",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH030",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH031"
+  },
+  "CH032": {
+    "title": "衡山之谋",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH031",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH032"
+  },
+  "CH033": {
+    "title": "衡山之谋",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH032",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH033"
+  },
+  "CH034": {
+    "title": "越线·公堂",
+    "pov": "终楠／关雪",
+    "arc": "",
+    "prev": "CH033",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH034"
+  },
+  "CH035": {
+    "title": "朔北首捷",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH034",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH035"
+  },
+  "CH036": {
+    "title": "朔北首捷",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH035",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH036"
+  },
+  "CH037": {
+    "title": "朔北首捷",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH036",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH037"
+  },
+  "CH038": {
+    "title": "毒酒",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH037",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH038"
+  },
+  "CH039": {
+    "title": "毒酒",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH038",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH039"
+  },
+  "CH040": {
+    "title": "矿界",
+    "pov": "阿瑶",
+    "arc": "",
+    "prev": "CH039",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH040"
+  },
+  "CH041": {
+    "title": "揭底",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH040",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH041"
+  },
+  "CH042": {
+    "title": "跨线与盟书",
+    "pov": "仲符（骥窗）",
+    "arc": "",
+    "prev": "CH041",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH042"
+  },
+  "CH043": {
+    "title": "父亡与婚事",
+    "pov": "阿瑶",
+    "arc": "",
+    "prev": "CH042",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH043"
+  },
+  "CH044": {
+    "title": "雍梁战争",
+    "pov": "仲符（骥窗口）",
+    "arc": "",
+    "prev": "CH043",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH044"
+  },
+  "CH045": {
+    "title": "雍梁战争",
+    "pov": "仲符（骥窗口）",
+    "arc": "",
+    "prev": "CH044",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH045"
+  },
+  "CH046": {
+    "title": "雍梁战争",
+    "pov": "仲符（骥窗口）",
+    "arc": "",
+    "prev": "CH045",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH046"
+  },
+  "CH047": {
+    "title": "刺骥",
+    "pov": "仲符",
+    "arc": "",
+    "prev": "CH046",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH047"
+  },
+  "CH048": {
+    "title": "同一夜",
+    "pov": "阿瑶",
+    "arc": "",
+    "prev": "CH047",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH048"
+  },
+  "CH049": {
+    "title": "决裂",
+    "pov": "杜若（**POV 启动，55.7%**）",
+    "arc": "",
+    "prev": "CH048",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH049"
+  },
+  "CH050": {
+    "title": "决裂",
+    "pov": "杜若（**POV 启动，55.7%**）",
+    "arc": "",
+    "prev": "CH049",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH050"
+  },
+  "CH051": {
+    "title": "梁亡",
+    "pov": "仲符",
+    "arc": "",
+    "prev": "CH050",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH051"
+  },
+  "CH052": {
+    "title": "梁亡",
+    "pov": "女史（铎经窗）",
+    "arc": "",
+    "prev": "CH051",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH052"
+  },
+  "CH053": {
+    "title": "最后一面",
+    "pov": "仲符（本线终章）",
+    "arc": "",
+    "prev": "CH052",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH053"
+  },
+  "CH054": {
+    "title": "新王与主将",
+    "pov": "骥／临风",
+    "arc": "",
+    "prev": "CH053",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH054"
+  },
+  "CH055": {
+    "title": "新王与主将",
+    "pov": "骥／临风",
+    "arc": "",
+    "prev": "CH054",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH055"
+  },
+  "CH056": {
+    "title": "新王与主将",
+    "pov": "骥／临风",
+    "arc": "",
+    "prev": "CH055",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH056"
+  },
+  "CH057": {
+    "title": "削藩战",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH056",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH057"
+  },
+  "CH058": {
+    "title": "削藩战",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH057",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH058"
+  },
+  "CH059": {
+    "title": "骥 POV 首章",
+    "pov": "骥",
+    "arc": "",
+    "prev": "CH058",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH059"
+  },
+  "CH060": {
+    "title": "照面与地下链",
+    "pov": "阿瑶／杜若",
+    "arc": "",
+    "prev": "CH059",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH060"
+  },
+  "CH061": {
+    "title": "照面与地下链",
+    "pov": "阿瑶／杜若",
+    "arc": "",
+    "prev": "CH060",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH061"
+  },
+  "CH062": {
+    "title": "照面与地下链",
+    "pov": "阿瑶／杜若",
+    "arc": "",
+    "prev": "CH061",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH062"
+  },
+  "CH063": {
+    "title": "决堤",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH062",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH063"
+  },
+  "CH064": {
+    "title": "决堤",
+    "pov": "阿瑶",
+    "arc": "",
+    "prev": "CH063",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH064"
+  },
+  "CH065": {
+    "title": "最大南压",
+    "pov": "终楠",
+    "arc": "",
+    "prev": "CH064",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH065"
+  },
+  "CH066": {
+    "title": "最大南压",
+    "pov": "骥",
+    "arc": "",
+    "prev": "CH065",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH066"
+  },
+  "CH067": {
+    "title": "天邑之围",
+    "pov": "四窗围猎（女史城内／渤援道／骥雍廷／南线牵制）",
+    "arc": "",
+    "prev": "CH066",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH067"
+  },
+  "CH068": {
+    "title": "天邑之围",
+    "pov": "四窗围猎（女史城内／渤援道／骥雍廷／南线牵制）",
+    "arc": "",
+    "prev": "CH067",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH068"
+  },
+  "CH069": {
+    "title": "天邑之围",
+    "pov": "四窗围猎（女史城内／渤援道／骥雍廷／南线牵制）",
+    "arc": "",
+    "prev": "CH068",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH069"
+  },
+  "CH070": {
+    "title": "天邑之围",
+    "pov": "四窗围猎（女史城内／渤援道／骥雍廷／南线牵制）",
+    "arc": "",
+    "prev": "CH069",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH070"
+  },
+  "CH071": {
+    "title": "云阳君覆灭",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH070",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH071"
+  },
+  "CH072": {
+    "title": "云阳君覆灭",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH071",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH072"
+  },
+  "CH073": {
+    "title": "盟主岁月",
+    "pov": "渤",
+    "arc": "",
+    "prev": "CH072",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH073"
+  },
+  "CH074": {
+    "title": "渤之落",
+    "pov": "渤／杜若",
+    "arc": "",
+    "prev": "CH073",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH074"
+  },
+  "CH075": {
+    "title": "渤之落",
+    "pov": "渤／杜若",
+    "arc": "",
+    "prev": "CH074",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH075"
+  },
+  "CH076": {
+    "title": "渤之落",
+    "pov": "渤／杜若",
+    "arc": "",
+    "prev": "CH075",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH076"
+  },
+  "CH077": {
+    "title": "终战",
+    "pov": "骥",
+    "arc": "",
+    "prev": "CH076",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH077"
+  },
+  "CH078": {
+    "title": "终战",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH077",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH078"
+  },
+  "CH079": {
+    "title": "终战",
+    "pov": "杜若",
+    "arc": "",
+    "prev": "CH078",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH079"
+  },
+  "CH080": {
+    "title": "辞符",
+    "pov": "临风",
+    "arc": "",
+    "prev": "CH079",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH080"
+  },
+  "CH081": {
+    "title": "乌金约",
+    "pov": "多／女史",
+    "arc": "",
+    "prev": "CH080",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH081"
+  },
+  "CH082": {
+    "title": "乌金约",
+    "pov": "多／女史",
+    "arc": "",
+    "prev": "CH081",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH082"
+  },
+  "CH083": {
+    "title": "乌金约",
+    "pov": "多／女史",
+    "arc": "",
+    "prev": "CH082",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH083"
+  },
+  "CH084": {
+    "title": "收束",
+    "pov": "骥",
+    "arc": "",
+    "prev": "CH083",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH084"
+  },
+  "CH085": {
+    "title": "收束",
+    "pov": "杜若",
+    "arc": "",
+    "prev": "CH084",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH085"
+  },
+  "CH086": {
+    "title": "后记",
+    "pov": "",
+    "arc": "",
+    "prev": "CH085",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH086"
+  },
+  "CH087": {
+    "title": "后记",
+    "pov": "",
+    "arc": "",
+    "prev": "CH086",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH087"
+  },
+  "CH088": {
+    "title": "后记",
+    "pov": "",
+    "arc": "",
+    "prev": "CH087",
+    "status": "planned",
+    "contract": null,
+    "approved": {
+      "contract": null,
+      "draft": null
+    },
+    "draft": null,
+    "revision_rounds": 0,
+    "revisions": [],
+    "review": {
+      "l0": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l1": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      },
+      "l2": {
+        "ok": false,
+        "report": null,
+        "audited_draft_sha": null
+      }
+    },
+    "waivers": [],
+    "delta": null,
+    "pack": null,
+    "provenance": {
+      "written_by": null,
+      "engine": null,
+      "date": null
+    },
+    "tag": "chapters/CH088"
   }
 }
