@@ -260,8 +260,8 @@
     "tag": "chapters/CH015"
   },
   "CH016": {
-    "title": "摩擦与犒师",
-    "pov": "舟月（杜若经窗）",
+    "title": "无旗船",
+    "pov": "舟月",
     "arc": "",
     "prev": "CH015",
     "status": "planned",
@@ -301,8 +301,8 @@
     "tag": "chapters/CH016"
   },
   "CH017": {
-    "title": "摩擦与犒师",
-    "pov": "舟月（杜若经窗）",
+    "title": "摩擦",
+    "pov": "公子渤",
     "arc": "",
     "prev": "CH016",
     "status": "planned",
@@ -342,7 +342,7 @@
     "tag": "chapters/CH017"
   },
   "CH018": {
-    "title": "灰海蛟窗",
+    "title": "弦高犒师",
     "pov": "舟月",
     "arc": "",
     "prev": "CH017",
@@ -383,7 +383,7 @@
     "tag": "chapters/CH018"
   },
   "CH019": {
-    "title": "灰海蛟窗",
+    "title": "蛟窗·创",
     "pov": "舟月",
     "arc": "",
     "prev": "CH018",

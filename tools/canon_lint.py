@@ -173,6 +173,8 @@ elif magic:
 
 # ── 检查9：POV 序列（前 20 章连续同 POV ≤2）＋中心英雄首现 ≤CH4 ──
 seq9 = sorted(((int(k[2:]), v.get('pov') or '') for k, v in chs.items()), key=lambda t: t[0])
+# POV 规范化：剥括号注记（如"舟月（CH20 渤经窗）"→"舟月"）再判连续，防注记差异拆 run 假阴性
+seq9 = [(n, re.sub(r'（[^）]*）|\([^)]*\)', '', pv).strip()) for n, pv in seq9]
 pov20 = [(n, pv) for n, pv in seq9 if n <= 20]
 runs9 = []
 for n, pv in pov20:
@@ -181,6 +183,16 @@ for n, pv in pov20:
     else:
         runs9.append((pv, [n]))
 viol9 = [(pv, ns) for pv, ns in runs9 if pv and len(ns) > 2]
+# 例外通道：copilot.json pov_exceptions = [{pov, chapters:[...], reason}]——骨架 V5 等
+# 已裁决设计与断言规则冲突时在此登记（run 全部章节命中同一例外才豁免，部分命中仍违规）
+exc9 = set()
+for e in (cfg.get('pov_exceptions', []) if isinstance(cfg, dict) else []):
+    if isinstance(e, dict) and e.get('pov'):
+        exc9.update((e['pov'], n) for n in e.get('chapters', []))
+skipped9 = [(pv, ns) for pv, ns in viol9 if all((pv, n) in exc9 for n in ns)]
+viol9 = [(pv, ns) for pv, ns in viol9 if (pv, ns) not in skipped9]
+for pv, ns in skipped9:
+    print(f' ○ [POV] {pv} 连续 {len(ns)} 章（CH{ns[0]:03d}—CH{ns[-1]:03d}）命中 pov_exceptions，跳过')
 for pv, ns in viol9:
     issues.append(f'[POV] 前20章 {pv} 连续 {len(ns)} 章（CH{ns[0]:03d}—CH{ns[-1]:03d}）>2')
 if pov20 and not viol9:
