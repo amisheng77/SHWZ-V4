@@ -1,6 +1,6 @@
 # SHWZ_Story_State
 
-> 状态：**Canon V4.1（2026-09-28，D1—D78 对齐）**；CH011、CH012 已 lock；CH013（北车·正章）planned、待新合同
+> 状态：**Canon V4.1（2026-09-28，D1—D79 对齐）**；CH011、CH012 已 lock；CH013（北车·正章）planned、待新合同
 > 当前 Canon：V4 六文档制（`docs/00—05`＋registry/arcs；入口＝`SHWZ_Current_Context.md`）
 > 用途：只记录"故事现在在哪里"，不替代世界观 Bible。
 
