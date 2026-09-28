@@ -18,7 +18,7 @@
 | 流程怎么做（写前写后/审计/伏笔/台账） | `docs/05_生产工作流.md` |
 | 命名唯一权威（含音义谶） | `docs/registry/terms.md` |
 | 事实归属表 | `docs/registry/owners.md` |
-| 场景级骨架 | `docs/arcs/Y4_大朝会.md` |
+| 场景级骨架 | `docs/arcs/Y4_大朝会.md`（朝会）· `docs/arcs/Y24_乌金约.md`（终局大戏，镜像件） |
 
 ---
 
