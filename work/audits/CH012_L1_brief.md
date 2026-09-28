@@ -493,7 +493,7 @@ verdict: <pass|fail>
 
 ---
 
-# 十四、公子菖
+# 十四、子菖
 
 ## 14.1 Reader Love
 
