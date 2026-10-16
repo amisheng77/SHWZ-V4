@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>山河无主·全域总图 V0.2（草案）</title>
+<style>
+  body{background:#f4efe4;font-family:"Songti SC","STSong",serif;margin:0;padding:24px;color:#2b2b2b}
+  .wrap{max-width:1500px;margin:0 auto}
+  h1{font-size:22px;letter-spacing:4px}
+  .meta{font-size:13px;color:#666;margin-bottom:12px}
+  .legend{font-size:13px;line-height:1.9;background:#fffdf6;border:1px solid #d8d0bc;padding:10px 16px;margin-bottom:14px}
+  svg{background:#eef4f7;border:1px solid #b9c6cc;max-width:100%;height:auto}
+  .note{font-size:12px;color:#8a4b00}
+</style>
+</head>
+<body><div class="wrap">
+<h1>《山河无主》全域总图 V0.2（草案）</h1>
+<div class="meta">依据：作者手绘草图＋Q1—Q8 八项裁决（2026-10-16）。成图定稿即地理事实权威（D64）；02 卷一已同步十处。</div>
+<div class="legend">
+■ 图例：<b>◎（双圈）＝国都</b>｜<b>●＝城池</b>｜<span style="color:#c0392b">━ 红实线＝国界</span>｜<span style="color:#c0392b">╌ 红虚点线＝山濮羁縻势力范围（边界模糊）</span>｜<span style="color:#e67e22">╌ 橙虚线＝交通线（陆路＋海路＋河水运）</span>｜<span style="color:#1a5276">━ 蓝黑线＝河流</span>｜浅蓝＝海｜灰＝高原/草原｜×＝故事锚点<br>
+■ V0.2 改动：文国移天邑之南（青雍之间，与天邑共南岸支流）｜文国旧地归青｜朔东撤缓冲国改港城（与朔都共河）｜河水单口入北海｜芮国芮都落位（荆东北）｜山濮改羁縻虚线｜西海改高原咸水湖（高原东南部）｜朔北延伸、北海西岸转东北｜梁𬩽移天邑之北｜城池—国都—路网补全
+</div>
+
+<svg viewBox="0 0 1500 1050" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1500" height="1050" fill="#dce9f0"/>
+  <!-- 北海（西岸转东北） -->
+  <path d="M870,145 L1000,105 L1180,55 L1500,30 L1500,255 L1240,240 L1090,185 L935,125 Z" fill="#bcd7e6"/>
+  <text x="1300" y="85" font-size="30" fill="#33708a" font-weight="bold">北 海</text>
+  <text x="1270" y="122" font-size="12" fill="#33708a">→ 东北寒带延伸</text>
+  <!-- 东海 -->
+  <path d="M1300,255 L1500,255 L1500,880 L1380,860 L1300,780 L1270,600 L1280,420 Z" fill="#bcd7e6"/>
+  <text x="1400" y="560" font-size="30" fill="#33708a" font-weight="bold">东 海</text>
+  <!-- 南海 -->
+  <rect x="260" y="1005" width="1100" height="45" fill="#bcd7e6"/>
+  <text x="740" y="1035" font-size="26" fill="#33708a" font-weight="bold">南 海</text>
+  <!-- 西海＝高原咸水湖（Q8） -->
+  <ellipse cx="250" cy="298" rx="48" ry="30" fill="#bcd7e6" stroke="#7fa8bd"/>
+  <text x="160" y="345" font-size="13" fill="#33708a">西海（高原咸水湖·参照青海湖）</text>
+
+  <!-- 草原 / 极寒高原 -->
+  <path d="M150,95 L870,60 L865,155 L660,150 L430,160 L200,175 Z" fill="#d5cfae"/>
+  <text x="360" y="105" font-size="20" fill="#7a7154" font-weight="bold">草 原（漠北 · 狍鸮核心巢区）</text>
+  <text x="360" y="128" font-size="11" fill="#7a7154">萨人西段守望者在高原边缘（西）</text>
+  <path d="M0,175 L120,148 L200,178 L160,420 L90,560 L0,560 Z" fill="#c9c2b4"/>
+  <text x="26" y="390" font-size="17" fill="#6f6a5e" font-weight="bold" transform="rotate(-90 38 390)">极寒高原</text>
+
+  <!-- 陆地 -->
+  <path d="M200,178 L870,150 L935,125 L1240,240 L1270,600 L1380,860 L260,1005 L130,830 L90,400 Z" fill="#efe7d2"/>
+
+  <!-- ============ 国界（红实线） ============ -->
+  <!-- 朔（北延） -->
+  <path d="M430,112 L660,120 L862,140 L858,205 L830,300 L760,345 L640,330 L520,300 L428,250 Z" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- 梁（天邑之北 Q8） -->
+  <path d="M600,290 L705,295 L712,372 L620,378 L588,335 Z" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- 𬩽（天邑之北 Q8） -->
+  <path d="M622,385 L755,388 L762,455 L660,468 L615,428 Z" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- 天邑王畿 -->
+  <path d="M725,442 L806,440 L812,505 L738,515 L718,478 Z" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- 文国（天邑之南 Q1） -->
+  <path d="M700,522 L862,528 L868,622 L790,635 L706,585 Z" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- 雍 -->
+  <path d="M200,190 L430,250 L520,300 L540,480 L500,620 L360,650 L230,600 L160,420 Z" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- 芮国（Q6） -->
+  <path d="M560,548 L695,552 L690,648 L600,652 L552,600 Z" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- 青（扩，含文国旧地 Q2） -->
+  <path d="M862,238 L1240,240 L1250,430 L1232,520 L1120,545 L980,540 L900,500 L848,470 L818,430 L830,340 L848,270 Z" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- 湄、峤 -->
+  <path d="M990,545 L1080,555 L1070,610 L1000,600 Z" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <path d="M1100,560 L1200,555 L1210,615 L1120,620 Z" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <!-- 沧 -->
+  <path d="M1080,620 L1230,615 L1300,700 L1330,800 L1250,860 L1130,830 L1060,740 Z" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <g stroke="#8a7f66" fill="none" stroke-width="1.5">
+    <ellipse cx="1355" cy="640" rx="16" ry="10"/><ellipse cx="1390" cy="675" rx="12" ry="8"/>
+    <ellipse cx="1370" cy="720" rx="18" ry="11"/><ellipse cx="1405" cy="760" rx="10" ry="7"/>
+  </g>
+  <text x="1338" y="625" font-size="12" fill="#6f6a5e">东海大小岛群</text>
+  <!-- 山濮（羁縻虚线 Q7） -->
+  <path d="M880,640 L1080,650 L1090,790 L1020,830 L920,800 L860,720 Z" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="12,6"/>
+  <!-- 荆 -->
+  <path d="M320,690 L540,660 L760,660 L900,650 L1010,700 L1030,810 L950,940 L800,1000 L640,1010 L480,990 L360,920 L300,800 Z" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <!-- 西南山地小邦 -->
+  <path d="M200,700 L320,700 L360,800 L300,920 L210,980 L170,860 Z" fill="none" stroke="#a08060" stroke-width="2" stroke-dasharray="1,4"/>
+  <text x="205" y="770" font-size="14" fill="#8a7f66">西南山地小邦</text>
+  <!-- 山脉 -->
+  <path d="M230,610 L360,650 L500,625" fill="none" stroke="#8a7f66" stroke-width="5" opacity="0.5"/>
+  <text x="245" y="642" font-size="12" fill="#8a7f66">雍南东西山脉</text>
+  <path d="M330,680 L560,650 L780,650 L900,640" fill="none" stroke="#8a7f66" stroke-width="5" opacity="0.5"/>
+  <text x="545" y="645" font-size="12" fill="#8a7f66">荆北山系（与雍交通困难）</text>
+
+  <!-- ============ 河流 ============ -->
+  <g stroke="#1a5276" stroke-width="3.5" fill="none" stroke-linecap="round">
+    <path d="M120,300 C260,340 380,430 520,468 C600,482 650,468 700,452 C745,438 780,445 830,435 C905,415 1010,398 1120,358 C1172,338 1206,284 1238,232"/>
+    <path d="M505,130 C530,200 560,262 588,318 C612,352 632,388 652,432 C668,452 700,455 722,452" stroke-width="2.5"/>
+    <path d="M648,300 C725,332 822,342 918,362 C985,374 1040,368 1088,355" stroke-width="2.5"/>
+    <path d="M312,268 C332,330 362,392 400,440 C430,468 462,470 506,468" stroke-width="2.5"/>
+    <path d="M628,232 C672,210 740,192 843,180" stroke-width="2.2"/>
+    <path d="M848,592 C812,584 786,548 768,514" stroke-width="2"/>
+    <path d="M420,700 C430,760 440,830 460,890 C468,930 466,968 460,1000" stroke-width="2.5"/>
+    <path d="M520,690 C510,760 495,830 480,890 C472,930 470,965 470,1000" stroke-width="2.5"/>
+    <path d="M610,665 C615,730 625,800 635,870 C640,920 640,965 640,1005" stroke-width="2.5"/>
+    <path d="M850,660 C845,720 838,790 832,860 C828,920 828,965 828,1005" stroke-width="2.5"/>
+    <path d="M950,730 C1000,760 1040,770 1070,770" stroke-width="1.8"/>
+    <path d="M940,750 C950,800 960,850 965,905 C968,950 966,980 962,1005" stroke-width="1.8"/>
+  </g>
+  <text x="330" y="452" font-size="17" fill="#1a5276" font-weight="bold">河 水（西→东主轴）</text>
+  <text x="150" y="285" font-size="11" fill="#1a5276">出高原</text>
+  <text x="1230" y="218" font-size="11" fill="#1a5276">河口（单口，Q5）</text>
+  <text x="560" y="278" font-size="11" fill="#1a5276">北部支流（高地→梁→𬩽→河水）</text>
+  <text x="770" y="322" font-size="11" fill="#1a5276">朔—青支流</text>
+  <text x="345" y="415" font-size="11" fill="#1a5276">雍内支流</text>
+  <text x="690" y="182" font-size="11" fill="#1a5276">朔都—朔东港共河（Q3）</text>
+  <text x="858" y="556" font-size="11" fill="#1a5276">天邑—文国南岸支流（Q1）</text>
+  <text x="466" y="960" font-size="11" fill="#1a5276">西水系·三角洲</text>
+  <text x="648" y="902" font-size="11" fill="#1a5276">中水系</text>
+  <text x="840" y="902" font-size="11" fill="#1a5276">东水系</text>
+
+  <!-- ============ 交通网（橙虚线 Q4） ============ -->
+  <g stroke="#e67e22" stroke-width="2.2" fill="none" stroke-dasharray="8,6">
+    <path d="M648,320 C750,350 850,360 940,372 C990,378 1020,374 1052,372"/>
+    <path d="M600,258 C520,292 452,352 390,412"/>
+    <path d="M405,438 C500,472 600,470 712,468"/>
+    <path d="M814,466 C880,452 950,420 1048,386"/>
+    <path d="M742,514 C706,552 664,576 634,590"/>
+    <path d="M620,616 C632,690 640,765 644,838"/>
+    <path d="M662,858 C745,820 855,780 942,744"/>
+    <path d="M978,742 C1035,748 1092,748 1256,718"/>
+    <path d="M1292,688 C1332,600 1330,500 1302,442"/>
+    <path d="M638,872 C592,912 522,952 478,992"/>
+  </g>
+
+  <!-- ============ 边墙 ============ -->
+  <path d="M438,208 L660,216 L848,198" fill="none" stroke="#444" stroke-width="4"/>
+  <path d="M438,208 L660,216 L848,198" fill="none" stroke="#fff" stroke-width="1.2" stroke-dasharray="6,6"/>
+  <text x="500" y="200" font-size="12" fill="#444">北境边墙</text>
+  <text x="556" y="236" font-size="12" fill="#c0392b">×</text>
+  <text x="508" y="252" font-size="10" fill="#666">边驿（CH1—2）</text>
+  <text x="700" y="232" font-size="10" fill="#666">CH5 突破现场</text>
+
+  <!-- ============ 城池与国都（Q4） ============ -->
+  <g>
+    <circle cx="765" cy="472" r="9" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="765" cy="472" r="4.5" fill="#8a2a1b"/>
+    <circle cx="620" cy="238" r="8" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="620" cy="238" r="4" fill="#8a2a1b"/>
+    <circle cx="372" cy="428" r="8" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="372" cy="428" r="4" fill="#8a2a1b"/>
+    <circle cx="1065" cy="375" r="8" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="1065" cy="375" r="4" fill="#8a2a1b"/>
+    <circle cx="645" cy="852" r="8" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="645" cy="852" r="4" fill="#8a2a1b"/>
+    <circle cx="1195" cy="700" r="8" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="1195" cy="700" r="4" fill="#8a2a1b"/>
+    <circle cx="782" cy="572" r="7" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="782" cy="572" r="3.5" fill="#8a2a1b"/>
+    <circle cx="652" cy="332" r="7" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="652" cy="332" r="3.5" fill="#8a2a1b"/>
+    <circle cx="690" cy="420" r="7" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="690" cy="420" r="3.5" fill="#8a2a1b"/>
+    <circle cx="622" cy="600" r="7" fill="none" stroke="#8a2a1b" stroke-width="2"/><circle cx="622" cy="600" r="3.5" fill="#8a2a1b"/>
+    <circle cx="845" cy="178" r="4" fill="#8a2a1b"/><circle cx="1198" cy="418" r="4" fill="#8a2a1b"/>
+    <circle cx="1268" cy="715" r="4" fill="#8a2a1b"/><circle cx="952" cy="732" r="4" fill="#8a2a1b"/>
+    <circle cx="312" cy="268" r="4" fill="#8a2a1b"/>
+  </g>
+  <g font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="765" y="458" font-weight="bold">天邑</text><text x="765" y="494" font-size="10" fill="#666">王都·灵台在此</text>
+    <text x="620" y="224" font-weight="bold">朔都</text>
+    <text x="372" y="414" font-weight="bold">雍都</text>
+    <text x="1065" y="361" font-weight="bold">青都</text>
+    <text x="645" y="838" font-weight="bold">荆都</text>
+    <text x="1195" y="686" font-weight="bold">沧都</text>
+    <text x="782" y="560" font-weight="bold">文都</text>
+    <text x="652" y="320" font-weight="bold">梁都</text>
+    <text x="690" y="408" font-weight="bold">𬩽都</text>
+    <text x="622" y="588" font-weight="bold">芮都</text>
+    <text x="866" y="168">朔东港</text>
+    <text x="1226" y="410">青东盐港</text>
+    <text x="1300" y="720">沧大港</text>
+    <text x="952" y="750" font-size="11">乌金矿镇 ⛏</text>
+    <text x="312" y="256" font-size="11">雍北铁镇</text>
+  </g>
+  <g font-size="19" font-weight="bold" fill="#2b2b2b" text-anchor="middle" opacity="0.82">
+    <text x="620" y="152">朔 国</text>
+    <text x="352" y="380">雍 国</text>
+    <text x="1075" y="335">青 国</text>
+    <text x="1200" y="755">沧 国</text>
+    <text x="972" y="712" font-size="16">山濮（羁縻）</text>
+    <text x="650" y="812">荆 国</text>
+    <text x="780" y="540" font-size="15">文 国</text>
+    <text x="600" y="305" font-size="13">梁</text>
+    <text x="735" y="432" font-size="13">𬩽</text>
+    <text x="600" y="572" font-size="14">芮</text>
+    <text x="1035" y="585" font-size="13">湄</text>
+    <text x="1150" y="592" font-size="13">峤</text>
+  </g>
+  <g font-size="11" fill="#666" text-anchor="middle">
+    <text x="540" y="310" font-size="10">河东故地（朔）</text>
+    <text x="250" y="330" font-size="10">河西故地（雍）</text>
+    <text x="612" y="178" font-size="10">北部高地·边塞·军马（狍鸮前线）</text>
+    <text x="1105" y="300" font-size="10">西部平原（粮）</text>
+    <text x="1215" y="445" font-size="10">东部丘陵·盐场·港口</text>
+    <text x="962" y="790" font-size="10">中西部·乌金主矿区｜南部海部落</text>
+    <text x="478" y="718" font-size="10">岵阳君</text>
+    <text x="540" y="855" font-size="10">南浦君</text>
+    <text x="862" y="800" font-size="10">云阳君（近矿区）</text>
+  </g>
+  <!-- 青鸾列岛 -->
+  <g stroke="#33708a" fill="none" stroke-width="1.5">
+    <ellipse cx="1430" cy="90" rx="14" ry="9"/><ellipse cx="1462" cy="120" rx="10" ry="7"/><ellipse cx="1408" cy="130" rx="8" ry="6"/>
+  </g>
+  <text x="1368" y="160" font-size="11" fill="#33708a">北海列岛（青鸾核心种群 D82）</text>
+  <text x="1295" y="330" font-size="11" fill="#33708a">蛟窗海域（青沧灰海）</text>
+</svg>
+
+<div class="note">V0.2 草案·2026-10-16｜Q1—Q8 八项裁决全部落图；02 卷一同步十处（文国/朔东港/芮都/西海/山濮羁縻/河水单口/梁𬩽方位/总纲中部寻→𬩽 死名修复）｜都城正式名、精确路程数值待定稿轮（D64）</div>
+</div></body></html>
