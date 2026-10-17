@@ -3,14 +3,14 @@
 > **更新日期：2026-10-17**  
 > **项目**：《山河无主》第一部《乌金与天命》  
 > **仓库**：[amisheng77/SHWZ-V4](https://github.com/amisheng77/SHWZ-V4)，以 **live `main`** 为实施 Source of Truth  
-> **Canon**：**V4.6，D1—D91**（D90＝大成王朝、古史体纪年、隐性《封神演义》开国神话；D89 V5.3 与 D84—D88 终裁仍有效）  
+> **Canon**：**V4.6，D1—D91**（**D91**＝大成王庭册爵／𬩽国不更名／𬩽阳君＋三郡郡守／石炭开发民生；**D90**＝大成纪年与隐性封神致敬；**D89**＝V5.3 章纲，D1—D88 仍有效）  
 > **章节骨架**：**V5.3 作者已批准，暂89章（正文86＋后记3）**；历史跨度 **Y0—Y25**、Y24 胜利／Y25 后记；**40—100 万字**（D61）  
 > **正文工作状态**：**CH011、CH012 locked；CH013 planned／待新合同；CH014、CH015 待建合同**  
 > **用途**：给新聊天窗口、协作 Agent 或作者本人交接当前权威、完成项、遗留决策与下一步；**本文件不是替代六份 Canon owner 的另一本设定集**。
 
 ## 0. 新窗口直接使用的接续指令
 
-> 继续《山河无主：乌金与天命》SHWZ-V4。以 GitHub **`amisheng77/SHWZ-V4` live `main`**、`SHWZ_Current_Context.md` 为 Source of Truth；先读 `HANDOFF.md`、`SHWZ_Story_State.md`，再按本次任务阅读 `docs/registry/owners.md` 指向的当前六份 owner。**不得从旧仓库 `amisheng77/SHWZ`、archive、旧聊天或 V3 历史文件恢复已被替代设定**。当前 **Canon V4.6（D1—D91）**，**章节骨架 V5.3（逻辑89章）**，Y4 作者地图已确认；**D84—D88 以及 D89 新开篇／改革独立因果／第二论战均已入 Canon owner；**政治经济 Proposal V1.3 的**总体制度／叙事原则已批准并迁入 Canon**，具体候选场景仍为 Proposal。CH011／CH012 已锁，不自行解锁；CH013 planned。下一任务优先执行 **V5.2→V5.3 原锁稿章位映射（旧 CH011／012 → 目标 CH03／04），然后制定新 CH01—15 逐章合同及 CH42 双案压力测试**；不再重复征求 A/B/C 章纲批准。不新造国家、现代机构、必经商路或未经裁决的政治经济参数。
+> 继续《山河无主：乌金与天命》SHWZ-V4。以 GitHub **`amisheng77/SHWZ-V4` live `main`**、`SHWZ_Current_Context.md` 为 Source of Truth；先读 `HANDOFF.md`、`SHWZ_Story_State.md`，再按本次任务阅读 `docs/registry/owners.md` 指向的当前六份 owner。**不得从旧仓库 `amisheng77/SHWZ`、archive、旧聊天或 V3 历史文件恢复已被替代设定**。当前 **Canon V4.6（D1—D91）**，**章节骨架 V5.3（逻辑89章）**，Y4 作者地图已确认；**D89—D91 的新开篇／仲符改革独立因果／双论战／大成纪年与爵称／𬩽阳君安旧族等已入 Canon owner；**政治经济 Proposal V1.3 的**总体制度／叙事原则已批准并迁入 Canon**，具体候选场景仍为 Proposal。CH011／CH012 已锁，不自行解锁；CH013 planned。下一任务优先执行 **V5.2→V5.3 原锁稿章位映射（旧 CH011／012 → 目标 CH03／04），然后制定新 CH01—15 逐章合同及 CH42 双案压力测试**；不再重复征求 A/B/C 章纲批准。不新造国家、现代机构、必经商路或未经裁决的政治经济参数。
 
 ## 1. 权威资料与优先顺序
 
