@@ -1,29 +1,31 @@
-# SHWZ — 《山河无主》项目仓库
+# SHWZ — 《山河无主：乌金与天命》
 
-长篇低魔东方政治幻想小说《山河无主》，第一部《乌金与天命》。
-主跨度 **Y0—Y25**（Y24 御兽战争胜利＋Y25 后记）；目标 40—65 万字、约 88 章。
+**现行基线：Canon V4.8（D1—D93）｜章节骨架 V5.3（暂89章＝正文86＋后记3）｜Y0—Y25｜40—100万字。**
 
-## 入口
+> **山河可以无主，英雄不可无光；历史可以冷酷，传奇必须炽烈。**
 
-新窗口/新会话接续项目，只读一个文件：
+这是一部春秋战国架空背景的历史玄幻传奇。深山有巨蟒、瘴气与山崩；列国虽彼此竞争，仍能凭工艺、知识、军队和信义跨越艰险，完成可靠乌金终杀（D93）。旧“全书冷写、淡神异”的审美已经废止（D92）。
 
-> **`SHWZ_Current_Context.md`**（权威文档表＋当前状态＋引导）
+## 工作入口（Source of Truth）
 
-## 文档体系（docs/，去版本号，命名唯一权威＝registry/terms.md）
+**先读 [SHWZ_Current_Context.md](SHWZ_Current_Context.md) 与 [HANDOFF.md](HANDOFF.md)。** 以 GitHub `main` 的当前六份 owner 为准；历史文件不得反向覆盖作者新裁决。
 
-- `00_创作宪法.md` —— 全部创作铁律＋决策登记 D1—D30
-- `01_世界观架构.md` ｜ `02_地理人口经济军力.md`
-- `03_人物Bible.md`（人物最高基准）｜ `04_POV人物档案.md` ｜ `05_渤骥菖铎关系.md`
-- `06_总时间线.md`（Y0—Y25＋战争因果卡）｜ `07_章节骨架.md`（88 章＋POV 配比）
-- `08_狍鸮与乌金.md` ｜ `09_暗线江湖.md` ｜ `10_叙事结构与文体.md`
-- `11_一致性工作流.md` ｜ `12_创作优先级.md` ｜ `13_开放伏笔.md` ｜ `14_连续性台账.md`
-- `arcs/Y4_大会盟.md` ｜ `registry/`（terms 命名＋owners 事实归属）
+| 当前唯一权威 | 职责 |
+|---|---|
+| [docs/00_创作宪法.md](docs/00_创作宪法.md) | 文体、审美、硬规则、D1—D93 |
+| [docs/01_世界观总览.md](docs/01_世界观总览.md) | 世界史、年表、兽类生态、乌金完整链、暗线、Y4 规则 |
+| [docs/02_国家设定.md](docs/02_国家设定.md) | 地理、经济、政治、官制、贸易、军力与礼制 |
+| [docs/03_人物设定.md](docs/03_人物设定.md) | 现行人物活档、关系与重要配角 |
+| [docs/04_章节骨架.md](docs/04_章节骨架.md) | V5.3 章节单元、POV、时间线及章号映射 |
+| [docs/05_生产工作流.md](docs/05_生产工作流.md) | Chapter Contract、连续性与 D92/D93 写作 Gate |
 
-## 其他目录
+**辅助唯一权威**：[命名表](docs/registry/terms.md) · [事实归属](docs/registry/owners.md) · [Y4 地理裁决](docs/maps/Y4_全域地理事实登记_V1.md) · [Y4 大朝会](docs/arcs/Y4_大朝会.md) · [Y24 乌金约](docs/arcs/Y24_乌金约.md) · [Story State](SHWZ_Story_State.md)。
 
-- `research/` 历史素材库｜`drafts/` 样章｜`work/` 合同/审计/pack｜`state/` novel_copilot 状态｜`archive/` 旧版（docs_v2、docs_legacy、drafts_legacy、reviews）
+## 素材与生产
 
-## 版本管理
+- `research/`：考据素材，仅作为写作参照，不直接替代架空世界的事实。
+- `work/`：章节合同、前情包与审计；`drafts/`：已写正文资产；`state/`：生产运行状态。
+- `docs/proposals/`：可选情节与方案；标注 〔P〕 的部分**不是**正式 Canon。
+- `docs/archive/` 与旧 `archive/`：历史草稿和被取代设定（包括 V3 人物档案），**不得自动恢复**。
 
-- 已被替代的旧稿只在 archive 与 Git 历史，不参与写作检索。
-- 跨文件结构性修改须同步 `SHWZ_Current_Context.md` 与 `registry/owners.md`。
+**重要锁状态**：旧 V5.2 CH011／CH012 为 locked，CH013 planned；新 V5.3 的 CH03／04／13 只是逻辑章位，不能直接覆盖旧正文。具体迁移须另走版本化合同。
