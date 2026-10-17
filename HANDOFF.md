@@ -10,7 +10,7 @@
 
 ## 0. 新窗口直接使用的接续指令
 
-> 继续《山河无主：乌金与天命》SHWZ-V4。以 GitHub **`amisheng77/SHWZ-V4` live `main`**、`SHWZ_Current_Context.md` 为 Source of Truth；先读 `HANDOFF.md`、`SHWZ_Story_State.md`，再按本次任务阅读 `docs/registry/owners.md` 指向的当前六份 owner。**不得从旧仓库 `amisheng77/SHWZ`、archive、旧聊天或 V3 历史文件恢复已被替代设定**。当前 **Canon V4.7（D1—D92）**，**章节骨架 V5.3（逻辑89章）**，Y4 作者地图已确认；**D89—D91 的新开篇／仲符改革独立因果／双论战／大成纪年与爵称／𬩽阳君安旧族等已入 Canon owner；**政治经济 Proposal V1.3 的**总体制度／叙事原则已批准并迁入 Canon**，具体候选场景仍为 Proposal。CH011／CH012 已锁，不自行解锁；CH013 planned。下一任务优先执行 **V5.2→V5.3 原锁稿章位映射（旧 CH011／012 → 目标 CH03／04），然后制定新 CH01—15 逐章合同及 CH42 双案压力测试**；不再重复征求 A/B/C 章纲批准。不新造国家、现代机构、必经商路或未经裁决的政治经济参数。
+> 继续《山河无主：乌金与天命》SHWZ-V4。以 GitHub **`amisheng77/SHWZ-V4` live `main`**、`SHWZ_Current_Context.md` 为 Source of Truth；先读 `HANDOFF.md`、`SHWZ_Story_State.md`，再按本次任务阅读 `docs/registry/owners.md` 指向的当前六份 owner。**不得从旧仓库 `amisheng77/SHWZ`、archive、旧聊天或 V3 历史文件恢复已被替代设定**。当前 **Canon V4.7（D1—D92）**，**D92 已废止全书冷写／淡化奇观的旧审美，现行总纲为“山河可以无主，英雄不可无光；历史可以冷酷，传奇必须炽烈”**；**章节骨架 V5.3（逻辑89章）**，Y4 作者地图已确认；**D89—D91 的新开篇／仲符改革独立因果／双论战／大成纪年与爵称／𬩽阳君安旧族等已入 Canon owner；**政治经济 Proposal V1.3 的**总体制度／叙事原则已批准并迁入 Canon**，具体候选场景仍为 Proposal。CH011／CH012 已锁，不自行解锁；CH013 planned。下一任务优先执行 **V5.2→V5.3 原锁稿章位映射（旧 CH011／012 → 目标 CH03／04），然后制定新 CH01—15 逐章合同及 CH42 双案压力测试**；不再重复征求 A/B/C 章纲批准。不新造国家、现代机构、必经商路或未经裁决的政治经济参数。
 
 ## 1. 权威资料与优先顺序
 
