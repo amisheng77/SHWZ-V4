@@ -24,8 +24,9 @@ if gaps:
 ctx = read('SHWZ_Current_Context.md')
 declared = re.findall(r'D1—D(\d+)', ctx)
 if declared and dnums:
-    if int(declared[0]) != max(dnums):
-        issues.append(f'[版本头] Current_Context 声明 D1—D{declared[0]}，宪法 D 表实至 D{max(dnums)}')
+    dmax = max(map(int, declared))  # 历史备忘行合法引用旧版号，以最大者为准
+    if dmax != max(dnums):
+        issues.append(f'[版本头] Current_Context 声明至 D{dmax}，宪法 D 表实至 D{max(dnums)}')
 
 # ── 检查3：旧名白名单（改名史上的死名零出现） ──
 DEAD = ['饕餮', '高离', '公子菖', '桑弧', '刺桑案', '公子关', '曾国', '淮国', '吴国', '执规（',
@@ -211,6 +212,8 @@ if not hero:
 else:
     unit_pov = [(int(a), b or a, p) for a, b, p in
                 re.findall(r'^## U\d+｜[^｜]+｜CH(\d+)(?:[—–\-](\d+))?｜POV ([^｜]+)', skel, re.M)]
+    unit_pov += [(int(a), a, p.strip()) for a, p in   # V5.3 F 格式：…｜时段／POV（截去括注）
+                 re.findall(r'^## F\d+-\d+｜CH(\d+)[^｜]*｜[^｜]*／([^｜（(\n]+)', skel, re.M)]
     first = next((n for n, pv in seq9 if pv and (hero in pv or pv in hero)), None)
     first_s = next((a for a, b, p in unit_pov if hero in p or p in hero), None)
     first = min([x for x in (first, first_s) if x is not None], default=None)
@@ -221,6 +224,27 @@ else:
     else:
         print(f' ✓ [中心英雄] {hero} 首现 CH{first:03d} ≤ CH4')
 
+# ── 检查10：合同硬约束超量（#17：「本章不能发生」条目 >10 → 告警防清单式文本） ──
+n10 = 0
+for cn in sorted(chs):
+    cv = chs[cn]
+    rel = cv.get('contract') if isinstance(cv, dict) else None
+    if not rel or not _exists(rel):
+        continue  # 无合同/文件缺失 → 跳过（格式容错）
+    try:
+        sec = re.search(r'^#+\s*本章不能发生[^\n]*\n(.*?)(?=\n#+\s|\Z)', read(rel), re.S | re.M)
+    except OSError:
+        continue
+    if not sec:
+        continue
+    items = [ln for ln in sec.group(1).split('\n')
+             if ln.strip() and not ln.strip().startswith(('#', '>', '|'))]
+    if len(items) > 10:
+        warns.append(f'[硬约束] {cn} 合同「本章不能发生」{len(items)} 条 >10：硬约束疑似超量（防清单式文本）')
+    n10 += 1
+if n10:
+    print(f' ✓ [硬约束] {n10} 份合同「本章不能发生」条目 ≤10（硬约束封顶 5 类，防清单式文本）')
+
 if warns:
     print(f'告警 {len(warns)} 处（不阻断）:')
     for w in warns:
@@ -230,4 +254,4 @@ if issues:
     for i in issues:
         print(' ✗', i)
     sys.exit(1)
-print(f'canon-lint：通过（D1—D{max(dnums)}，{len(SCAN)} 文件扫描；json/占比锁/五牌/POV ✓）')
+print(f'canon-lint：通过（D1—D{max(dnums)}，{len(SCAN)} 文件扫描；json/占比锁/五牌/POV/硬约束 ✓）')
