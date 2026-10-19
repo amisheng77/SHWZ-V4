@@ -6,6 +6,12 @@
 > 时段：Y0—Y25，正文大成纪年；**Y24 人类御兽全面胜利，Y25 后记**。篇幅40—100万字。  
 > 此文件为交接导航，若与活档冲突，以最新作者裁决、`docs/00_创作宪法.md` 和相应 owner 为准。禁止旧仓库、archive、旧聊天恢复被替代设定。
 
+## 2026-10-19 Legacy Canon 清理（无新 D 决策）
+
+**防回流入口**：`state/baseline_manifest.json` 已按现行源重建；`state/legacy_quarantine.json` 隔离旧物理 CH011／CH012 正文及旧合同／PACK 中的过时 `type: canon` 标签。00 的 D13／D23／D91 历史记录标失效覆盖，03 的四君子原型标题不再误指小说“四公子”；`tools/canon_lint.py` 加入 Legacy Gate。历史提案及报告一律不得覆盖六份 owner。**旧锁稿、合同、PACK、`state/chapters.json` 及其 SHA 均未修改。**
+
+**下一窗口执行**：先读此 HANDOFF 和 Context，再按任务读取六 owner；旧文件只能当历史材料，不得拿旧物理章号冒充逻辑 V5.3 的同号章节。需要新合同与新 PACK 时，必须以当前 owner 重建，并通过 Legacy Gate。
+
 ## 0. 新窗口直接使用的指令
 
 > 继续 SHWZ-V4《山河无主》，以 GitHub `amisheng77/SHWZ-V4` live main、`SHWZ_Current_Context.md` 和 **Canon V4.25／D1—D112** 为 Source of Truth。优先阅读重构后的 `docs/00_创作宪法.md`，严格实行三条最高创作纪律：**人物鲜明、主要矛盾明确、神异有边界但必须震撼**。这是一部有英雄、有反派、有爱恨、有遗憾和快意恩仇的历史奇幻传奇；拒绝AI自作聪明的对称灰度、反向辩护和风险堆砌。明确废弃“冷历史，热人物，淡神异！”旧口号，绝不回滚。**全书 CH01 以食人兽袭击开场，CH89 在女史“不要改”终笔后，以山濮北部密林猎人遇到第三条黑色巨蟒的惊恐镜头收尾。三次巨蟒是不同地点的三条不同黑蟒，不是同一条。** 旧 CH011／CH012 原文 locked 不改，先根据本次任务阅读 owner 再执行。
