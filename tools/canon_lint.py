@@ -35,7 +35,9 @@ DEAD = ['饕餮', '高离', '公子菖', '桑弧', '刺桑案', '公子关', '�
         'docs/09_暗线', 'docs/10_叙事', 'docs/11_一致性', 'docs/12_创作', 'docs/13_开放',
         'docs/14_连续性', 'docs/15_礼制']
 SCAN = []
-for dp, _, fns in os.walk(DOCS):
+for dp, dirs, fns in os.walk(DOCS):
+    # 历史提案、报告、归档不是现行 Canon，禁止混入现行死名/路径扫描
+    dirs[:] = [d for d in dirs if d not in ('proposals', 'reports', 'archive')]
     SCAN += [os.path.join(dp, f) for f in fns if f.endswith('.md')]
 SCAN += [os.path.join(ROOT, f) for f in ['SHWZ_Current_Context.md', 'SHWZ_Story_State.md', 'HANDOFF.md']]
 for path in SCAN:
@@ -108,6 +110,53 @@ if cfg and cdb is not None:
             issues.append(f'[pov_anchors] {pov} → {target} 不在 chapters.json')
 if cfg or cdb is not None:
     print(f' ✓ [json] 路径扫描：docs_map/registry/open_threads + chapters.json {len(chs)} 章 path 字段')
+
+
+# ── 检查6B：Legacy Canon 防回流（旧稿只读隔离；新合同不得引用旧 Canon） ──
+try:
+    active_manifest = json.loads(read('state/baseline_manifest.json'))
+    quarantine = json.loads(read('state/legacy_quarantine.json'))
+except (OSError, ValueError) as e:
+    issues.append(f'[Legacy Gate] 清单无法读取: {e}')
+else:
+    active = active_manifest.get('files', [])
+    six = ['docs/00_创作宪法.md', 'docs/01_世界观总览.md',
+           'docs/02_国家设定.md', 'docs/03_人物设定.md',
+           'docs/04_章节骨架.md', 'docs/05_生产工作流.md']
+    if active_manifest.get('status') != 'ACTIVE_SOURCE_INDEX':
+        issues.append('[Legacy Gate] manifest 必须是 ACTIVE_SOURCE_INDEX')
+    if len(active) != len(set(active)):
+        issues.append('[Legacy Gate] manifest 有重复文件')
+    if set(active_manifest.get('canon_owners', [])) != set(six) or not set(six).issubset(active):
+        issues.append('[Legacy Gate] 六份 Canon owner 不齐全')
+    for p in active:
+        if not _exists(p):
+            issues.append(f'[Legacy Gate] 当前源路径不存在: {p}')
+        if p.startswith(('docs/proposals/', 'docs/archive/', 'work/packs/',
+                         'work/contracts/', 'research/')):
+            issues.append(f'[Legacy Gate] 非 Canon 来源混入 manifest: {p}')
+    old_assets = set(quarantine.get('read_only_assets', []))
+    if not old_assets:
+        issues.append('[Legacy Gate] 旧稿隔离清单为空')
+    for p in old_assets:
+        if not _exists(p):
+            issues.append(f'[Legacy Gate] 隔离资产路径不存在: {p}')
+    if old_assets.intersection(active):
+        issues.append(f'[Legacy Gate] 旧稿混入现行来源: {sorted(old_assets.intersection(active))}')
+    # 历史 locked 的旧合同和 PACK 不改变原 SHA，仅列入豁免；新合同须完整验证来源存在。
+    ref_re = re.compile(r"""(?:["']?path["']?)\s*:\s*["']?(docs/[^,\s"'}]+\.md)""")
+    for folder in ('work/contracts', 'work/packs'):
+        base = os.path.join(ROOT, folder)
+        if not os.path.isdir(base):
+            continue
+        for fn in os.listdir(base):
+            p = f'{folder}/{fn}'
+            if not fn.endswith('.md') or p in old_assets or 'Template' in fn:
+                continue
+            for src in ref_re.findall(read(p)):
+                if not _exists(src):
+                    issues.append(f'[Legacy Gate] 新合同/PACK 有失效的 Canon 路径: {p} → {src}')
+    print(f' ✓ [Legacy Gate] 当前清单 {len(active)} 项；六 owner；隔离 {len(old_assets)} 项旧物理资产')
 
 # ── 检查7：占比锁（04 §0.5 爆点节拍表 vs 总章数/chapters.json 实际章号） ──
 skel = read('docs/04_章节骨架.md')
