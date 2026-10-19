@@ -262,7 +262,7 @@ else:
     unit_pov = [(int(a), b or a, p) for a, b, p in
                 re.findall(r'^## U\d+｜[^｜]+｜CH(\d+)(?:[—–\-](\d+))?｜POV ([^｜]+)', skel, re.M)]
     unit_pov += [(int(a), a, p.strip()) for a, p in   # V5.3 F 格式：…｜时段／POV（截去括注）
-                 re.findall(r'^## F\d+-\d+｜CH(\d+)[^｜]*｜[^｜]*／([^｜（(\n]+)', skel, re.M)]
+                 re.findall(r'^## F\d+-\d+｜CH(\d+)[^\n｜]*｜[^\n｜]*／([^\n｜（(]+)', skel, re.M)]
     first = next((n for n, pv in seq9 if pv and (hero in pv or pv in hero)), None)
     first_s = next((a for a, b, p in unit_pov if hero in p or p in hero), None)
     first = min([x for x in (first, first_s) if x is not None], default=None)
