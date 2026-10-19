@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "effective": "2026-10-19",
+  "status": "NON_CANON_EXECUTION_QUARANTINE",
+  "source_index": "state/baseline_manifest.json",
+  "note": "历史锁稿及原合同、PACK不修改。旧元数据中的 type: canon 仅反映历史生成时状态，不再作为新写作事实权威。新逻辑合同必须重新以六 owner 取证、独立审批；原 CH011/CH012 lock、SHA、state/chapters.json 保持不变。",
+  "read_only_assets": [
+    "drafts/CH011_天下来客_V0.1.md",
+    "drafts/CH012_学宫与王庭_V0.1.md",
+    "work/contracts/Y4_Chapter11_Contract_V0.1.md",
+    "work/contracts/CH012_Contract_V0.1.md",
+    "work/contracts/Y4_P2-lite_人物情感与去设计化卡_V0.2.md",
+    "work/packs/CH011_pack.md",
+    "work/packs/CH012_pack.md",
+    "work/packs/CH012_pack_B_设定卡.md",
+    "work/packs/CH012_pack_C_前情.md"
+  ],
+  "excluded_directories": [
+    "docs/proposals/",
+    "docs/reports/",
+    "docs/archive/",
+    "research/",
+    "work/audits/",
+    "work/deltas/",
+    "work/voided/"
+  ],
+  "known_stale_canon_refs": [
+    "docs/SHWZ_核心人物_Character_Bible_V3.0_历史人格版.md",
+    "docs/山河无主_渤骥菖铎人物关系设定_V0.8.md",
+    "docs/Y4天邑大会盟_场景设计骨架_V0.2.md"
+  ],
+  "approved_owner_files": [
+    "docs/00_创作宪法.md",
+    "docs/01_世界观总览.md",
+    "docs/02_国家设定.md",
+    "docs/03_人物设定.md",
+    "docs/04_章节骨架.md",
+    "docs/05_生产工作流.md"
+  ]
+}
