@@ -6,6 +6,10 @@
 > 时段：Y0—Y25，正文大成纪年；**Y24 人类御兽全面胜利，Y25 后记**。篇幅40—100万字。  
 > 此文件为交接导航，若与活档冲突，以最新作者裁决、`docs/00_创作宪法.md` 和相应 owner 为准。禁止旧仓库、archive、旧聊天恢复被替代设定。
 
+## 2026-10-20 独立审稿机制（非 Canon、非写作 Agent）
+
+作者决定**其他 Agent 执行新版正文写作，GPT 负责独立审核**。已建立 `review/README.md`（交稿示例）、`review/SHWZ_Literary_Review_Protocol_V1.0.md`（先文学后 Canon，P0/P1/P2、六维与五章整体审核）、`review/prompts/SHWZ_Independent_Review_Prompt_V1.0.md`、`review/templates/Chapter_Review_Report_Template_V1.0.md` 和可移植 `.agents/skills/shwz-literary-review/SKILL.md`。这些文件**只定义审稿规则，不新增 D 号**；放在 repo 并不等于 ChatGPT 插件已自动安装。审稿由作者发正文 `path@commit` 触发，默认只读，报告需作者指定才落 `work/audits/literary/`。CH011／CH012 原锁稿与现行 D112 不变。审稿不得把“合规”误当“好看”，或用审计阻断具有读者吸引力的正文。
+
 ## 2026-10-20 作者评估与新版前五章创作入口（非 Canon 决策）
 
 - 作者明确计划**进入 V5.3 新逻辑 CH01—05 的正文创作**。本条是下一阶段意向，不代表五章合同、正文或迁移已经完成。
