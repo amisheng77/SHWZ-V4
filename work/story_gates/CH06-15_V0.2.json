@@ -1,0 +1,723 @@
+{
+  "schema_version": "1.0",
+  "arc": "CH06—15 V0.2 北境危机与列国分途（待作者裁决，非正式章位）",
+  "asset_source": "docs/reports/CH06-15_旧剧情资产保护与迁移审计_V0.1.md",
+  "chapters": [
+    {
+      "id": "CH06",
+      "word_target": 5600,
+      "chapter_change": "另一边寨白昼兽袭，守军与关雪撤护散居百姓，留下防线与牲畜的真实损失",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "关雪要求先救伤民并组织撤护",
+          "obstacle": "守哨护粮与救民不能兼得，马车伤药皆有限",
+          "choice": "她与军官商定舍弃部分牲畜、优先带出伤者",
+          "outcome": "部分百姓得救，外哨与物资损失不可挽回",
+          "scene": "朔北关雪在伤兵营与烽燧间抢救伤者"
+        },
+        {
+          "id": "B",
+          "goal": "渤与终楠争取城外兽证有限留样",
+          "obstacle": "王庭合理忧虑腐臭疑疫与公验期限",
+          "choice": "渤促合法分级验存，终楠列出可保的真实骨皮样本",
+          "outcome": "取得有限时效内的实物复验权而非无限保管",
+          "scene": "天邑城外公验场由渤、文吏与终楠对着损毁记录复核"
+        }
+      ],
+      "interaction": {
+        "type": "contrast",
+        "bridge": "天邑争保存死兽证据时，朔北正在争保存活人；新的烽报抵达才让两地冲突升级为政治选择"
+      },
+      "hook": {
+        "payoff": "朔北有人活下来但外哨损失，留证手续也有时间边界",
+        "next_pressure": "新烽报能否赶到焦获君面前，改变他在天邑的决定？"
+      },
+      "asset_ids": [
+        "F1-A01",
+        "F1-A02",
+        "F1-A03",
+        "F1-A04",
+        "F1-A05",
+        "F1-A39"
+      ]
+    },
+    {
+      "id": "CH07",
+      "word_target": 5600,
+      "chapter_change": "焦获君离开天邑返回朔北，渤接下有限外交工作",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "焦获君要尽速回边领军而不能丢掉求援渠道",
+          "obstacle": "若离开天邑，朔国迫切钱粮支持可能失去直接谈判者",
+          "choice": "留下有合法权限的使团联系人，委托渤限于他能做的事并亲自启程",
+          "outcome": "焦获君开始真实返边路程，渤留下承担有条件外交",
+          "scene": "朔将军与北海君完成交接后从天邑启程，随从备马交凭"
+        },
+        {
+          "id": "B",
+          "goal": "仲符和骥确定雍国北境有限调查方向",
+          "obstacle": "雍国有争霸军务与财政优先，不能因朔报全部让路",
+          "choice": "仲符要求收集边塞险口和存军资料却拒绝无条件支援朔国",
+          "outcome": "雍国开始为本土防务留一条调查线但未全国御兽动员",
+          "scene": "雍使馆内仲符与骥问各府能提供的真实报表与军械能力"
+        }
+      ],
+      "interaction": {
+        "type": "collision",
+        "bridge": "焦获君离邑使朔国争援更难，而仲符坚持雍国自身优先，渤无法用私名望替列国统一下令"
+      },
+      "hook": {
+        "payoff": "焦获君离邑，雍国形成有限防备国策，公开朝会可在此正式散议",
+        "next_pressure": "将军在路上时下一封边报还会送到哪里？"
+      },
+      "asset_ids": [
+        "F1-A06",
+        "F1-A07",
+        "F1-A08",
+        "F1-A09",
+        "F1-A10"
+      ]
+    },
+    {
+      "id": "CH08",
+      "word_target": 5600,
+      "chapter_change": "杜若独立查明一笔货物迟滞的实情并保护鸣梭坊信用",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "杜若必须判明一批货物为何没有按保函到达",
+          "obstacle": "货权簿与关津交接不合，商户试图把损失推给她",
+          "choice": "亲到关津查经手凭信，承担小损失但拒绝无权扣货",
+          "outcome": "维护商号信誉却付出真实成本，货物仍非立即达边",
+          "scene": "杜若与商户核货权凭据，亲自处理封载与关津手续"
+        },
+        {
+          "id": "B",
+          "goal": "朔北军吏用现存粮车救助撤离百姓",
+          "obstacle": "天邑的有限支援远在路上，本地粮与马车不够",
+          "choice": "军吏决定腾出一部分军需驮车先运伤民并留守另一批粮械",
+          "outcome": "局部救援成功但据点粮草储备遭真实削减",
+          "scene": "朔北军官与文吏在迁移队前分配驮车粮食"
+        }
+      ],
+      "interaction": {
+        "type": "causal",
+        "bridge": "商货迟滞和北境急需形成真实资源落差，杜若的清账结果限定渤所能开出的信用承诺，不能跨地瞬时送货"
+      },
+      "hook": {
+        "payoff": "商路责任与边寨救人各有决断，纸上允诺仍未成实物",
+        "next_pressure": "已经答应的货物若迟到，下一次谁承担信用与人命代价？"
+      },
+      "asset_ids": [
+        "F1-A11",
+        "F1-A12",
+        "F1-A13"
+      ]
+    },
+    {
+      "id": "CH09",
+      "word_target": 5600,
+      "chapter_change": "女史查两本止伏异文及失简案不同经手痕迹",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "女史要发现古史异文与档案卷宗有何实际错乱",
+          "obstacle": "伯策的训示不能直接回答两次经手为何不同",
+          "choice": "重新对照两本古史笔画和封藏手续追出实在一处时序矛盾",
+          "outcome": "认定失简不是简单抄写差错但还无法抓出全部经手者",
+          "scene": "天邑史库女史与伯策当面对简，再独自查登记"
+        },
+        {
+          "id": "B",
+          "goal": "关雪在北境伤兵营争取给撤民和伤者更多粮车",
+          "obstacle": "伤兵不断到来且军吏必须保存哨所粮械",
+          "choice": "提出先转运最危险的伤者并接受牺牲部分运载装备",
+          "outcome": "让一批伤民撑过迁移但牺牲另一处守备需求",
+          "scene": "朔境医者面对军吏与被抬来的伤民分配床位和车具"
+        }
+      ],
+      "interaction": {
+        "type": "contrast",
+        "bridge": "女史必须对死人留下的文字负责，关雪必须对尚能活着的人负责；两人都面对记录与取舍，却无须互知消息"
+      },
+      "hook": {
+        "payoff": "女史发现可查的档案异动，关雪获得一次救人机会",
+        "next_pressure": "同一本史书的异文之外，第二位动卷者要隐藏什么？"
+      },
+      "asset_ids": [
+        "F1-A14",
+        "F1-A15",
+        "F1-A16"
+      ]
+    },
+    {
+      "id": "CH10",
+      "word_target": 6200,
+      "chapter_change": "终楠与临风首次正式专业切磋并进行可失败的验证",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "临风要证明一种防御工法可供普通边卒使用",
+          "obstacle": "终楠亲历的兽伤和临风计算的器物尺寸不吻合",
+          "choice": "两人以残留工事部件和原记录作现场尺度复核并实测",
+          "outcome": "发现某一常见工法不适用于新观测条件，至少一人改口",
+          "scene": "天邑受控验场终楠与临风首次在同一器物前操作"
+        },
+        {
+          "id": "B",
+          "goal": "子菖与女史纠正兽证图绘在记录流转中的比例错误",
+          "obstacle": "旧手绘与各方目击证言出现影响验算的矛盾",
+          "choice": "子菖重画一处伤道，女史标注原画与重绘的来源责任",
+          "outcome": "图证得到可信修订但引发谁曾改写资料的追问",
+          "scene": "子菖在旧兽图旁补新图，女史核封记署名"
+        }
+      ],
+      "interaction": {
+        "type": "causal",
+        "bridge": "子菖修正伤道比例直接迫使两位工师改设现场试验角度，旧图不只是艺术品"
+      },
+      "hook": {
+        "payoff": "两位工师产生具体不一致且得到可核的新画证",
+        "next_pressure": "既然第一次实验结果与猜想不同，下一次验痕怎么做？"
+      },
+      "asset_ids": [
+        "F1-A18",
+        "F1-A19",
+        "F1-A40"
+      ]
+    },
+    {
+      "id": "CH11",
+      "word_target": 6200,
+      "chapter_change": "终楠与临风验证CH05软肋假说的具体边界",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "终楠要将CH05的猜测变成可靠的可复核证据",
+          "obstacle": "软组织已坏，原伤与分割刀口又容易混淆",
+          "choice": "以幸存硬骨厚皮和事前丈量对照多处伤痕作限度复验",
+          "outcome": "一项弱区假说受到证强或被否定，获得下一步可验结论",
+          "scene": "两位工师与见证军吏在兽骸保存样本前重复核算"
+        },
+        {
+          "id": "B",
+          "goal": "仲符从终楠器物操作认出雍国工正旧脉",
+          "obstacle": "他想验证雍地工脉来源却不熟终楠的父辈历史",
+          "choice": "主动询问终楠亡父姓名并派文吏检索可信旧军需簿",
+          "outcome": "旧雍朔战冤案被正式追查但尚未查出终局",
+          "scene": "仲符在验场停手问姓氏，随从准备向封邑查簿"
+        }
+      ],
+      "interaction": {
+        "type": "causal",
+        "bridge": "兽痕复验暴露终楠的雍地工脉，迫使仲符由技术认识进入父亲旧欠追查"
+      },
+      "hook": {
+        "payoff": "工师对弱点得到新证，而仲符有了必须追查的亡父名字",
+        "next_pressure": "从一位工师的做法为什么会查出一笔旧战军需欠项？"
+      },
+      "asset_ids": [
+        "F1-A21",
+        "F1-A22",
+        "F1-A23"
+      ]
+    },
+    {
+      "id": "CH12",
+      "word_target": 6500,
+      "chapter_change": "仲符查清并修正终楠之父的旧军需冤欠",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "仲符要核明自己曾督办体系下发生的旧人战错账",
+          "obstacle": "旧军需记录与终楠家庭悲剧不能被今日责任推诿化解",
+          "choice": "查清原簿、责成销欠补直并公开承担制度遗漏",
+          "outcome": "账目得以平反，终楠却只能说账对了人回不去了",
+          "scene": "仲符对终楠当面认错平账，主情绪高潮不许被插戏打断"
+        },
+        {
+          "id": "B",
+          "goal": "渤要决定自己能合法承担多少朔北救援信用",
+          "obstacle": "朔境急报需要实际转运，渤个人财力并非青国公库",
+          "choice": "拒绝以国库名义擅发货券，改为有实际保人的限额商援",
+          "outcome": "一项能兑现的个人信用被押上，渤因此失去另一项人情",
+          "scene": "渤在仲符旧账一事之前先办自己的商保筹援手续"
+        }
+      ],
+      "interaction": {
+        "type": "contrast",
+        "bridge": "旧制度可以迟来还终楠清白，今天的商誉若迟到又将伤人；两笔账照见强者能弥补和不能弥补的事"
+      },
+      "hook": {
+        "payoff": "仲符完成真实纠错，渤付信用代价，终楠失去的家人无法回来",
+        "next_pressure": "过去旧欠已经销除，眼前边境真正缺的援助多久能到？"
+      },
+      "asset_ids": [
+        "F1-A24",
+        "F1-A25",
+        "F1-A26",
+        "F1-A27"
+      ]
+    },
+    {
+      "id": "CH13",
+      "word_target": 5600,
+      "chapter_change": "女史从北山古籍和兽图查出重要历史缺口",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "她要解释旧史何以有比止伏异文更严重的失载",
+          "obstacle": "残简、王庭灵台权限与多份图证互不完整",
+          "choice": "与伯策、子菖复核已死兽首和世界内部旧书里的古名",
+          "outcome": "首次正式辨识狍鸮古名并发现更深的可核古史矛盾",
+          "scene": "天邑史库女史拿兽体画证对世界内部典籍逐一辨认"
+        },
+        {
+          "id": "B",
+          "goal": "朔境边镇军吏和关雪组织第一次局部救人撤护",
+          "obstacle": "旧哨守粮需要兵手，散居村落撤离同样紧迫",
+          "choice": "舍弃一部分外哨与牲畜，以地形沟栅争取伤民迁移",
+          "outcome": "救出部分民众，付出边地器物与粮草不可逆损失",
+          "scene": "朔北边吏在日间用旧哨道路护送百姓越过险地"
+        }
+      ],
+      "interaction": {
+        "type": "contrast",
+        "bridge": "古史中被删除的旧英雄行动，与今时朔北普通军吏医者弃哨救人互为镜像，而非超时空共享情报"
+      },
+      "hook": {
+        "payoff": "女史取得一处新史料矛盾，朔北以舍地换来一些活人",
+        "next_pressure": "几百年前谁曾作出类似选择，又为何无人留下名字？"
+      },
+      "asset_ids": [
+        "F1-A28",
+        "F1-A29",
+        "F1-A30"
+      ]
+    },
+    {
+      "id": "CH14",
+      "word_target": 5600,
+      "chapter_change": "渤通过会后有条件私议取得有限可执行的援助",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "他要在列国竞争中争取朔北生存所需资源",
+          "obstacle": "各国不愿无偿交军费工艺，青国国帑更非渤私产",
+          "choice": "撤去无法履行的联盟话术，商定限时有价且有责任人的小约",
+          "outcome": "得到一至两项可兑现的有限合作，同时伤及一位请托者",
+          "scene": "渤与仍在天邑的各国使节或商保人在馆舍查对条款"
+        },
+        {
+          "id": "B",
+          "goal": "焦获君在真正的返边路程中调整朔北军事选择",
+          "obstacle": "他需判断应集中保粮哨还是先撤出散居牧民",
+          "choice": "依据逐次抵达的军报在途下达合法军令和集中车马计划",
+          "outcome": "北境获得一次有授权的撤护部署却要放弃防区之一",
+          "scene": "焦获君在归途驿舍读不同时间的军报并向边镇发令"
+        }
+      ],
+      "interaction": {
+        "type": "causal",
+        "bridge": "渤签的有限转运承诺经真实驿传影响返边部署，但此前焦获君已须靠本国粮与兵先做决定"
+      },
+      "hook": {
+        "payoff": "外交获得有限成果，焦获君权衡将付出的失地代价",
+        "next_pressure": "当各国最终只给一点支持，朔境还能守住多少人？"
+      },
+      "asset_ids": [
+        "F1-A31",
+        "F1-A32",
+        "F1-A33"
+      ]
+    },
+    {
+      "id": "CH15",
+      "word_target": 6500,
+      "chapter_change": "朔北在真实牺牲下取得一场小规模救人胜利",
+      "lines": [
+        {
+          "id": "A",
+          "goal": "边军和关雪要把民众安全撤出危险外哨区域",
+          "obstacle": "旧防区、人畜粮道与伤兵不能全部兼顾",
+          "choice": "焦获君若已抵边则统兵、否则由边军按其合法军令执行撤护",
+          "outcome": "一批人得救，弃哨或损粮造成下一阶段真实政治代价",
+          "scene": "朔北撤离队越过险地，军吏与关雪护送最后伤者"
+        },
+        {
+          "id": "B",
+          "goal": "渤在各国分道时面对人望与青王赏赐之间的距离",
+          "obstacle": "他的民间宾客声望不能直接换作青国正式国家授权",
+          "choice": "接受较薄一档的君王赏赐而保留独立人格与有限成果",
+          "outcome": "取得私人信任却被提醒青国国权有自己的尺度",
+          "scene": "渤返青国或受王廷正式信赏时仍与来自天邑的私信对照"
+        }
+      ],
+      "interaction": {
+        "type": "contrast",
+        "bridge": "朔北舍弃土地救人、渤舍弃部分政治期待守住信誉，两种胜利都有不能挽回的代价"
+      },
+      "hook": {
+        "payoff": "边民确有生还者，列国却带着不同战略和贸易目标分道",
+        "next_pressure": "青沧海路上的竞争何时会把这些旧信用撕开？"
+      },
+      "asset_ids": [
+        "F1-A34",
+        "F1-A35",
+        "F1-A36",
+        "F1-A37"
+      ]
+    }
+  ],
+  "asset_migrations": [
+    {
+      "id": "F1-A01",
+      "disposition": "rewrite",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "CH06嵌Y0实景，造成终楠Y4拒绝对新兽证夸大结论"
+    },
+    {
+      "id": "F1-A02",
+      "disposition": "rewrite",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "CH06回忆段先写受伤之人的真实感官、救治过程和危机，非直接切到温柔对话"
+    },
+    {
+      "id": "F1-A03",
+      "disposition": "rewrite",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "CH06较完整伤兵营一幕；如章内放不下，须在后续关键关系场面明确再核销，不能消失"
+    },
+    {
+      "id": "F1-A04",
+      "disposition": "keep",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "CH06差异化浅伏；CH12对终楠父亲真实欠项才完全揭晓"
+    },
+    {
+      "id": "F1-A05",
+      "disposition": "keep",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "CH06回忆有“大成八百年”或等价时间眉，Y4视角明确切回"
+    },
+    {
+      "id": "F1-A06",
+      "disposition": "rewrite",
+      "chapters": [
+        "CH07"
+      ],
+      "scene_payoff": "CH07 Y4雍国边防讨论体现旧制度成果，并嵌具体往事；背景年代不改"
+    },
+    {
+      "id": "F1-A07",
+      "disposition": "rewrite",
+      "chapters": [
+        "CH07"
+      ],
+      "scene_payoff": "CH07嵌前史实景与骥反应；若篇幅容纳不了须登记未来具体回收位"
+    },
+    {
+      "id": "F1-A08",
+      "disposition": "keep",
+      "chapters": [
+        "CH07"
+      ],
+      "scene_payoff": "CH07 Y4当代问难＋往事中年轻骥的独立判断"
+    },
+    {
+      "id": "F1-A09",
+      "disposition": "keep",
+      "chapters": [
+        "CH07"
+      ],
+      "scene_payoff": "CH07用一份有具体优先级与代价的本国军政动作验证，CH12再暴露旧制度缺陷"
+    },
+    {
+      "id": "F1-A10",
+      "disposition": "keep",
+      "chapters": [
+        "CH07"
+      ],
+      "scene_payoff": "CH07在雍国本土利益框架下安排资料搜集与预防，不无偿承担诸侯公共责任"
+    },
+    {
+      "id": "F1-A11",
+      "disposition": "keep",
+      "chapters": [
+        "CH08"
+      ],
+      "scene_payoff": "CH08一件真实可核货物／交付失败的商事选择，连接CH14承诺兑现条件"
+    },
+    {
+      "id": "F1-A12",
+      "disposition": "keep",
+      "chapters": [
+        "CH08"
+      ],
+      "scene_payoff": "CH08杜若有自己的客户、买卖、风险和决定，渤因另一本国家事务相遇"
+    },
+    {
+      "id": "F1-A13",
+      "disposition": "keep",
+      "chapters": [
+        "CH08"
+      ],
+      "scene_payoff": "CH08沧商节点与安澜君兴趣相连；如须另设深谈，应待后续群段裁决"
+    },
+    {
+      "id": "F1-A14",
+      "disposition": "keep",
+      "chapters": [
+        "CH09"
+      ],
+      "scene_payoff": "CH09完整师徒场面，女史主动追问且得不到现成答案"
+    },
+    {
+      "id": "F1-A15",
+      "disposition": "keep",
+      "chapters": [
+        "CH09"
+      ],
+      "scene_payoff": "CH09可见关系成本，CH15再以会散形成未完的私人选择"
+    },
+    {
+      "id": "F1-A16",
+      "disposition": "keep",
+      "chapters": [
+        "CH09"
+      ],
+      "scene_payoff": "CH09一次可追索的具体经手痕迹，CH13／15更新，原因仍部分未知"
+    },
+    {
+      "id": "F1-A17",
+      "disposition": "defer",
+      "later_target": "CH13后续灵台巫术专门场景",
+      "reason": "参横有限巫术目前仅有候选窗口，不能未经作者裁决直接插入Y4历史。",
+      "carry_forward_owner": "下一章节群资产审计与锁稿隔离清单"
+    },
+    {
+      "id": "F1-A18",
+      "disposition": "keep",
+      "chapters": [
+        "CH10"
+      ],
+      "scene_payoff": "CH10针对CH11验痕任务，设置两种互斥技术主张／现场复核"
+    },
+    {
+      "id": "F1-A19",
+      "disposition": "keep",
+      "chapters": [
+        "CH10"
+      ],
+      "scene_payoff": "CH10通过器具、判断与人物短忆展示谱系差异"
+    },
+    {
+      "id": "F1-A20",
+      "disposition": "defer",
+      "later_target": "CH16以后的山海人物正式登场",
+      "reason": "舟月和阿瑶各自的独立传奇不应硬塞进Y4天邑工师章节。",
+      "carry_forward_owner": "下一章节群资产审计与锁稿隔离清单"
+    },
+    {
+      "id": "F1-A21",
+      "disposition": "keep",
+      "chapters": [
+        "CH11"
+      ],
+      "scene_payoff": "CH11须在CH05“腹侧可能弱区”之后取得**新可复核证据或推翻某个旧猜测**"
+    },
+    {
+      "id": "F1-A22",
+      "disposition": "keep",
+      "chapters": [
+        "CH11"
+      ],
+      "scene_payoff": "CH11参与形证核对，不抢工师实验判断"
+    },
+    {
+      "id": "F1-A23",
+      "disposition": "keep",
+      "chapters": [
+        "CH11"
+      ],
+      "scene_payoff": "CH11末触发CH12旧账，章际因果具体呈现"
+    },
+    {
+      "id": "F1-A24",
+      "disposition": "keep",
+      "chapters": [
+        "CH12"
+      ],
+      "scene_payoff": "CH12仲符调得原始旧账与同批关联证据、查出错记与冤欠"
+    },
+    {
+      "id": "F1-A25",
+      "disposition": "keep",
+      "chapters": [
+        "CH12"
+      ],
+      "scene_payoff": "CH12历史核算与人物对话中落实"
+    },
+    {
+      "id": "F1-A26",
+      "disposition": "keep",
+      "chapters": [
+        "CH12"
+      ],
+      "scene_payoff": "CH12真正纠错时与终楠相见，谦而不自我神化"
+    },
+    {
+      "id": "F1-A27",
+      "disposition": "keep",
+      "chapters": [
+        "CH12"
+      ],
+      "scene_payoff": "CH12不可逆的情感高潮，双方不得以一个道歉就和好如初"
+    },
+    {
+      "id": "F1-A28",
+      "disposition": "keep",
+      "chapters": [
+        "CH13"
+      ],
+      "scene_payoff": "CH13女史用CH09学到的史法校验实证并发现更深矛盾"
+    },
+    {
+      "id": "F1-A29",
+      "disposition": "keep",
+      "chapters": [
+        "CH13"
+      ],
+      "scene_payoff": "CH13沿现行因果保留政治／史档秘密线"
+    },
+    {
+      "id": "F1-A30",
+      "disposition": "keep",
+      "chapters": [
+        "CH13"
+      ],
+      "scene_payoff": "CH13使CH05初问升级为可见史料矛盾；首部后段仍需重大揭秘"
+    },
+    {
+      "id": "F1-A31",
+      "disposition": "keep",
+      "chapters": [
+        "CH14"
+      ],
+      "scene_payoff": "CH14集中选择真实条款、履约条件和未达成部分"
+    },
+    {
+      "id": "F1-A32",
+      "disposition": "keep",
+      "chapters": [
+        "CH14"
+      ],
+      "scene_payoff": "CH14某个求见者获助、另一个被拒，CH15青王薄赏形成政治代价"
+    },
+    {
+      "id": "F1-A33",
+      "disposition": "keep",
+      "chapters": [
+        "CH14"
+      ],
+      "scene_payoff": "CH14各说实际有能力及无权承诺之事，条件合作"
+    },
+    {
+      "id": "F1-A34",
+      "disposition": "keep",
+      "chapters": [
+        "CH15"
+      ],
+      "scene_payoff": "CH15具体“谁带走什么、哪项没兑现、如何引向Y5”"
+    },
+    {
+      "id": "F1-A35",
+      "disposition": "keep",
+      "chapters": [
+        "CH15"
+      ],
+      "scene_payoff": "CH15必须有有形礼仪、赏赐差别与周围反应，未必是公开羞辱"
+    },
+    {
+      "id": "F1-A36",
+      "disposition": "keep",
+      "chapters": [
+        "CH15"
+      ],
+      "scene_payoff": "CH15见一次真实破绽或危险后果，保留Y5后续线"
+    },
+    {
+      "id": "F1-A37",
+      "disposition": "keep",
+      "chapters": [
+        "CH15"
+      ],
+      "scene_payoff": "CH15极轻预示，后续再核销"
+    },
+    {
+      "id": "F1-A38",
+      "disposition": "defer",
+      "later_target": "旧物理CH011/CH012只读隔离清单",
+      "reason": "这是锁定旧物理正文的保护义务，不可以迁移成新逻辑章情节。",
+      "carry_forward_owner": "下一章节群资产审计与锁稿隔离清单"
+    },
+    {
+      "id": "F1-A39",
+      "disposition": "keep",
+      "chapters": [
+        "CH06"
+      ],
+      "scene_payoff": "各章一条人物选择主轴，补相关商贸、史证、国策、私人关系的分镜"
+    },
+    {
+      "id": "F1-A40",
+      "disposition": "keep",
+      "chapters": [
+        "CH10"
+      ],
+      "scene_payoff": "CH10尊重荆国使团权限及旧设"
+    }
+  ],
+  "author_approval": {
+    "status": "pending",
+    "reference": ""
+  },
+  "literary_review": {
+    "status": "pending",
+    "report_path": ""
+  },
+  "notes": "继承V0.1四十项资产迁移而增加边境生存引擎；仍待作者裁决，禁止用结构PASS提前修改Canon或交写作Agent。",
+  "conflict_engines": [
+    {
+      "id": "N",
+      "kind": "northern_survival",
+      "inciting_event": "CH01后数日另一处朔北边寨白昼局部兽袭，撤民或守哨抉择",
+      "climax": "CH15舍弃外哨／牲畜换取一批边民脱险，非Y11成熟首捷"
+    },
+    {
+      "id": "P",
+      "kind": "interstate_rivalry",
+      "inciting_event": "焦获君收到新边讯后决定回朔，渤留在天邑履行有限外交信用",
+      "climax": "各国只承诺有权有成本的小援助，不出现Y4正式联盟"
+    },
+    {
+      "id": "H",
+      "kind": "historical_inquiry",
+      "inciting_event": "失简与止伏异文、终楠雍地工脉共同触发两条不同旧史线",
+      "climax": "CH12平冤旧账和CH13发现更深古史缺口，且真实谜底未尽"
+    }
+  ],
+  "geo_clock_notes": "CH06北境另一局部兽患与CH01捕母兽不同；天邑快骑、焦获君返朔、朔国军吏对援助可知程度必须以单章时钟实核。公开朝会CH07结束为候选；CH08—15会后与朔境／商道／归国并行。"
+}
