@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "adopted": "2026-10-19",
   "status": "ACTIVE_SOURCE_INDEX",
-  "canon_version": "V4.25 / D1-D112",
+  "canon_version": "V4.33 / D1-D120",
   "description": "重建为现行有效源与生产入口索引，不枚举历史提案、旧PACK或锁稿。原2026-09-25完整清单在Git历史中可追溯。此清单不能单独替代六owner事实归属。",
   "canon_owners": [
     "docs/00_创作宪法.md",
@@ -26,6 +26,8 @@
     "docs/registry/owners.md",
     "docs/registry/terms.md",
     "docs/arcs/Y4_大朝会.md",
+    "docs/proposals/CH01-05_双线押运与朝会重构_V1.3_确认版.md",
+    "docs/reports/CH01-05_旧剧情资产保护与迁移核对_D120.md",
     "docs/arcs/Y24_乌金约.md",
     "docs/maps/Y4_全域地理事实登记_V1.md",
     "copilot.json",
