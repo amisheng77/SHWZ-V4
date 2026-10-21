@@ -1,10 +1,14 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "arc": "CH06—15 V0.2 北境危机与列国分途（待作者裁决，非正式章位）",
   "asset_source": "docs/reports/CH06-15_旧剧情资产保护与迁移审计_V0.1.md",
   "chapters": [
     {
       "id": "CH06",
+      "engine_ids": [
+        "N",
+        "P"
+      ],
       "word_target": 5600,
       "chapter_change": "另一边寨白昼兽袭，守军与关雪撤护散居百姓，留下防线与牲畜的真实损失",
       "lines": [
@@ -44,6 +48,10 @@
     },
     {
       "id": "CH07",
+      "engine_ids": [
+        "P",
+        "N"
+      ],
       "word_target": 5600,
       "chapter_change": "焦获君离开天邑返回朔北，渤接下有限外交工作",
       "lines": [
@@ -82,6 +90,10 @@
     },
     {
       "id": "CH08",
+      "engine_ids": [
+        "P",
+        "N"
+      ],
       "word_target": 5600,
       "chapter_change": "杜若独立查明一笔货物迟滞的实情并保护鸣梭坊信用",
       "lines": [
@@ -118,6 +130,10 @@
     },
     {
       "id": "CH09",
+      "engine_ids": [
+        "H",
+        "N"
+      ],
       "word_target": 5600,
       "chapter_change": "女史查两本止伏异文及失简案不同经手痕迹",
       "lines": [
@@ -154,6 +170,10 @@
     },
     {
       "id": "CH10",
+      "engine_ids": [
+        "H",
+        "P"
+      ],
       "word_target": 6200,
       "chapter_change": "终楠与临风首次正式专业切磋并进行可失败的验证",
       "lines": [
@@ -190,6 +210,10 @@
     },
     {
       "id": "CH11",
+      "engine_ids": [
+        "H",
+        "P"
+      ],
       "word_target": 6200,
       "chapter_change": "终楠与临风验证CH05软肋假说的具体边界",
       "lines": [
@@ -226,6 +250,10 @@
     },
     {
       "id": "CH12",
+      "engine_ids": [
+        "H",
+        "P"
+      ],
       "word_target": 6500,
       "chapter_change": "仲符查清并修正终楠之父的旧军需冤欠",
       "lines": [
@@ -263,6 +291,10 @@
     },
     {
       "id": "CH13",
+      "engine_ids": [
+        "H",
+        "N"
+      ],
       "word_target": 5600,
       "chapter_change": "女史从北山古籍和兽图查出重要历史缺口",
       "lines": [
@@ -299,6 +331,10 @@
     },
     {
       "id": "CH14",
+      "engine_ids": [
+        "P",
+        "N"
+      ],
       "word_target": 5600,
       "chapter_change": "渤通过会后有条件私议取得有限可执行的援助",
       "lines": [
@@ -335,6 +371,11 @@
     },
     {
       "id": "CH15",
+      "engine_ids": [
+        "N",
+        "P",
+        "H"
+      ],
       "word_target": 6500,
       "chapter_change": "朔北在真实牺牲下取得一场小规模救人胜利",
       "lines": [
@@ -704,19 +745,28 @@
       "id": "N",
       "kind": "northern_survival",
       "inciting_event": "CH01后数日另一处朔北边寨白昼局部兽袭，撤民或守哨抉择",
-      "climax": "CH15舍弃外哨／牲畜换取一批边民脱险，非Y11成熟首捷"
+      "climax": "CH15舍弃外哨／牲畜换取一批边民脱险，非Y11成熟首捷",
+      "stakes": "边疆军官、文吏和关雪在保住外哨与牲畜或救出散居百姓之间只能择重，可能失去粮草与防区。",
+      "escalation": "从CH06白昼兽袭到CH09伤民迁移，再到CH13第一次有限撤护和CH15有代价的救人胜利。",
+      "irreversible_result": "部分百姓得救，但据点、牲畜或粮草遭不可逆损失，兽患仍未解决。"
     },
     {
       "id": "P",
       "kind": "interstate_rivalry",
       "inciting_event": "焦获君收到新边讯后决定回朔，渤留在天邑履行有限外交信用",
-      "climax": "各国只承诺有权有成本的小援助，不出现Y4正式联盟"
+      "climax": "各国只承诺有权有成本的小援助，不出现Y4正式联盟",
+      "stakes": "焦获君离开天邑承担北防职责，渤的私人信用有限，仲符顾及雍国争霸与本土安全，沧商也必须保住自身利益。",
+      "escalation": "焦获君返边，杜若货物兑现受阻，渤改以可执行的小额承诺协调不同国家，青国王权与私人声望裂缝扩大。",
+      "irreversible_result": "列国只达成局部有条件帮助，焦获君返朔，渤因选择保住信用而欠下具体人情，青沧竞争继续。"
     },
     {
       "id": "H",
       "kind": "historical_inquiry",
       "inciting_event": "失简与止伏异文、终楠雍地工脉共同触发两条不同旧史线",
-      "climax": "CH12平冤旧账和CH13发现更深古史缺口，且真实谜底未尽"
+      "climax": "CH12平冤旧账和CH13发现更深古史缺口，且真实谜底未尽",
+      "stakes": "女史为史料真伪承担风险，仲符对曾督办的旧雍朔军需冤案负责，终楠面对不可能复生的家人。",
+      "escalation": "两本子与失简案揭露不同经手，验痕辨出雍地工脉，仲符追旧欠平反，北山经指向更深的失落英雄史。",
+      "irreversible_result": "终楠父亲冤欠虽清但家人不返，女史发现可证史料异动，八百年前大谜仍未全开。"
     }
   ],
   "geo_clock_notes": "CH06北境另一局部兽患与CH01捕母兽不同；天邑快骑、焦获君返朔、朔国军吏对援助可知程度必须以单章时钟实核。公开朝会CH07结束为候选；CH08—15会后与朔境／商道／归国并行。"
