@@ -1,0 +1,35 @@
+name: SHWZ Story Gate
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/story_gate.py'
+      - 'tests/test_story_gate.py'
+      - 'work/story_gates/**'
+      - 'work/contracts/**'
+      - 'docs/reports/CH06-15_旧剧情资产保护与迁移审计_V0.1.md'
+      - 'docs/05_生产工作流.md'
+      - '.github/workflows/story-gate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/story_gate.py'
+      - 'tests/test_story_gate.py'
+      - 'work/story_gates/**'
+      - 'work/contracts/**'
+      - 'docs/reports/CH06-15_旧剧情资产保护与迁移审计_V0.1.md'
+      - 'docs/05_生产工作流.md'
+      - '.github/workflows/story-gate.yml'
+permissions:
+  contents: read
+jobs:
+  story-gate:
+    name: Story Gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -p 'test_story_gate.py' -v
+      - name: Structural and story asset checks
+        run: python3 tools/story_gate.py --dir work/story_gates --stage structure
