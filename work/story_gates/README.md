@@ -2,7 +2,7 @@
 
 **优先级：工作流＋机器校验＋独立文学审稿；不是再写一段提示词。** 原Canon、既定历史事实由六份 owner 决定。讨论稿的机器结构通过不代表作者已批准，亦不代表文字精彩。
 
-## 1. 每次章群重构必须走五关
+## 1. 每次章群重构必须走六个环节
 
 | 环节 | 必须交付 | 放行条件 |
 |---|---|---|
@@ -19,7 +19,7 @@
 
 ```bash
 python3 -m unittest discover -s tests -p 'test_story_gate.py' -v
-python3 tools/story_gate.py --file work/story_gates/CH06-15_V0.1.json --stage structure
+python3 tools/story_gate.py --file work/story_gates/CH06-15_V0.2.json --stage structure
 python3 tools/story_gate.py --file work/story_gates/CH06-15_V0.2.json --stage handoff
 ```
 
@@ -28,6 +28,8 @@ python3 tools/story_gate.py --file work/story_gates/CH06-15_V0.2.json --stage ha
 **新版schema 1.1先冲突再分章**：须有至少两条 `conflict_engines[]`，各含`id/inciting_event/stakes/escalation/irreversible_result`，逐章`engine_ids[]`与真实发动机相连；没列来源或只列主题词则机器FAIL。旧schema 1.0只为历史清单兼容，不能作为新重构的准入格式。
 
 JSON字段：`chapter_change`（本章实际局势变化）；`lines[].goal/obstacle/choice/outcome/scene`；`interaction.type/bridge`；`hook.payoff/next_pressure`；`asset_ids`；`asset_migrations`。资产来源由 `asset_source` 指向仓库现有旧资产表，不靠模型自报“没有遗漏”。延后需指定下一章群及理由；删除需作者明确裁决。
+
+**V0.2冲突复核**：除字段校验，还须人工读取 `docs/reports/CH06-15_V0.2_冲突升级与时空连续性验收清单.md`；特别检查N线在CH06突发、CH09伤营承压、CH13组织撤护、CH15局部救人各自**不是同一场戏复写**，并审核焦获君返程、朝会公开议程与青王薄赏的空间时钟。若剧本没有真正的新事件、新行动和不可逆后果，机器PASS也应判文学Gate未通过。
 
 ## 3. 代码边界与落实
 
