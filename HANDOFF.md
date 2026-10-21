@@ -6,6 +6,12 @@
 > 时段：Y0—Y25，正文大成纪年；**Y24 人类御兽全面胜利，Y25 后记**。篇幅40—100万字。  
 > 此文件为交接导航，若与活档冲突，以最新作者裁决、`docs/00_创作宪法.md` 和相应 owner 为准。禁止旧仓库、archive、旧聊天恢复被替代设定。
 
+## 2026-10-21｜Story Gate V1.0 已落盘：阻断章节单线与旧戏丢失
+
+**必须执行**：`tools/story_gate.py`、`work/story_gates/README.md`、`work/story_gates/CH06-15_V0.1.json`、`tests/test_story_gate.py`、`.github/workflows/story-gate.yml`。每章目标4000—7000字，至少两条有目标/阻力/选择/结果/场面的真剧情线，有跨线桥接；对应旧资产台账ID逐项迁移。机器结构检查`--stage structure`通过后仍须GPT独立审稿＋作者明确批准，`--stage handoff`通过才准交写作Agent。**CH06—15仍待裁，handoff当前必须FAIL**。旧CH011／012锁稿不动；Actions已加低成本结构检查，但branch protection必需状态尚需管理员配置。
+
+---
+
 ## 2026-10-21｜CH06—15 第二章群审计 V0.1（**仅方案／未获作者裁决**）
 
 **已落盘两份待审材料**：
