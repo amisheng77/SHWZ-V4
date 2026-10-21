@@ -51,4 +51,41 @@ class TestStoryGate(unittest.TestCase):
         d=deepcopy(self.data);d["asset_migrations"][1]={"id":"F1-A02","disposition":"propose_delete","reason":"已提出删去旧人物场景但尚待作者裁决"}
         d["chapters"][0]["asset_ids"]=["F1-A01"]
         self.assertTrue(any("作者未明确批准删除" in e for e in self.audit(d,"handoff")))
+    def test_v11_missing_conflict_engine_fails(self):
+        d=deepcopy(self.data)
+        d["schema_version"]="1.1"
+        self.assertTrue(any("冲突发动机" in e for e in self.audit(d)))
+
+    def test_v11_unlinked_chapter_fails(self):
+        d=deepcopy(self.data)
+        d["schema_version"]="1.1"
+        d["conflict_engines"]=[
+            {"id":"N", "inciting_event":"另一个边哨发生真实北兽袭扰并迫使军民撤离",
+             "stakes":"守哨与撤民不可兼得，粮草与人命同时有风险",
+             "escalation":"兽袭后人手更少，地方军官不得不撤离危险地带",
+             "irreversible_result":"部分百姓获救但外哨物资永久失去"},
+            {"id":"P", "inciting_event":"列国使节面临新的朔境求援请求而各顾国利",
+             "stakes":"各国财政及信用承诺可能伤害本国利益",
+             "escalation":"愿意口头帮忙却无一国肯承担全部运粮成本",
+             "irreversible_result":"达成有限承诺，朔国仍须用自身资源抢救"}
+        ]
+        self.assertTrue(any("engine_ids" in e for e in self.audit(d)))
+        d["chapters"][0]["engine_ids"]=["N","P"]
+        self.assertEqual([],self.audit(d))
+
+    def test_v11_missing_engine_stakes_fails(self):
+        d=deepcopy(self.data)
+        d["schema_version"]="1.1"
+        d["conflict_engines"]=[
+            {"id":"N", "inciting_event":"边军遭到另一头活兽冲击不得不撤民",
+             "stakes":"无", "escalation":"哨所粮马逐渐不够难以保护百姓",
+             "irreversible_result":"百姓得救但边粮损失惨重"},
+            {"id":"P", "inciting_event":"远方列国援助承诺与边境实际需求相撞",
+             "stakes":"边军需粮而列国各自保全财政",
+             "escalation":"使团逐渐无法达成无条件援助",
+             "irreversible_result":"仅获得小额有条件的粮械援助"}
+        ]
+        d["chapters"][0]["engine_ids"]=["N","P"]
+        self.assertTrue(any(".stakes" in e for e in self.audit(d)))
+
 if __name__=="__main__": unittest.main()
