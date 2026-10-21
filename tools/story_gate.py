@@ -47,8 +47,28 @@ def review_manifest(path: Path, stage: str = "structure", root: Path = ROOT):
         return [f"{path}: JSON 无效 ({exc})"], []
     if not isinstance(data, dict):
         return ["根节点必须是对象"], []
-    if data.get("schema_version") != "1.0":
-        error("schema_version", "必须为 1.0")
+    version = data.get("schema_version")
+    if version not in {"1.0", "1.1"}:
+        error("schema_version", "须为 1.0（旧版）或 1.1（先冲突发动机新版）")
+    engine_ids = set()
+    engine_used = set()
+    if version == "1.1":
+        engines = data.get("conflict_engines")
+        if not isinstance(engines, list) or len(engines) < 2:
+            error("conflict_engines", "新章群须先建立至少两条有真实危险与后果的冲突发动机")
+            engines = []
+        for i, engine in enumerate(engines):
+            if not isinstance(engine, dict):
+                error(f"conflict_engines[{i}]", "必须为对象")
+                continue
+            eid = engine.get("id")
+            if not isinstance(eid, str) or not eid.strip() or eid in engine_ids:
+                error(f"conflict_engines[{i}].id", "须为不重复的发动机ID")
+                continue
+            engine_ids.add(eid)
+            for field in ("inciting_event", "stakes", "escalation", "irreversible_result"):
+                if not meaning(engine.get(field), min_len=15):
+                    error(f"{eid}.{field}", "必须先写具体的新危机来源、目标代价、升级和不可逆结果")
     asset_source = data.get("asset_source")
     asset_ids = set()
     if not meaning(asset_source, min_len=10) or not asset_source.startswith("docs/reports/") or not asset_source.endswith(".md"):
@@ -82,6 +102,16 @@ def review_manifest(path: Path, stage: str = "structure", root: Path = ROOT):
         elif cid in chapter_ids:
             error(f"{loc}.id", f"重复章号 {cid}")
         chapter_ids.add(cid)
+        if version == "1.1":
+            drivers = ch.get("engine_ids")
+            if not isinstance(drivers, list) or not drivers:
+                error(f"{cid}.engine_ids", "本章必须连接至少一条先设计的冲突发动机")
+            else:
+                for driver in drivers:
+                    if driver not in engine_ids:
+                        error(f"{cid}.engine_ids", f"引用未知冲突发动机：{driver}")
+                    else:
+                        engine_used.add(driver)
         target = ch.get("word_target")
         if not isinstance(target, int) or isinstance(target, bool) or not 4000 <= target <= 7000:
             error(f"{cid}.word_target", "每章目标须在4000—7000字")
@@ -130,6 +160,10 @@ def review_manifest(path: Path, stage: str = "structure", root: Path = ROOT):
             chapter_asset_map.setdefault(a, set()).add(cid)
             if asset_ids and a not in asset_ids:
                 error(f"{cid}.asset_ids", f"未知资产编号 {a}")
+    if version == "1.1":
+        orphan_engines = engine_ids - engine_used
+        if orphan_engines:
+            error("conflict_engines", "没有进入任何章节行动的冲突发动机: " + ", ".join(sorted(orphan_engines)))
     assets = data.get("asset_migrations")
     if not isinstance(assets, list):
         error("asset_migrations", "必须逐条列出原资产迁移核对")
