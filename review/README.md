@@ -14,6 +14,10 @@
 
 **出报告**：默认在对话中展示审稿结果。要留 Git 版本记录，可明确要求将报告另存 `work/audits/literary/CH01_Literary_Review_V0.1.md`；不覆盖正文，不自动调整 lock／Canon／Story State。
 
+## Story Gate V1.0（章节重构前的强制入口）
+
+**先**按 `work/story_gates/README.md` 用 `tools/story_gate.py`核销旧剧情资产与每章至少两条实质剧情线，**再**使用本目录的独立文学审稿程序。结构检查PASS不能替代文学审查；未有作者批准及真实结构审稿报告时，`--stage handoff`必须FAIL。详见 `review/prompts/SHWZ_Structure_Gate_Review_V1.0.md`。
+
 ## 工具包的三个部分
 
 - [正式审稿协议](SHWZ_Literary_Review_Protocol_V1.0.md)：审核顺序、文学六维、Canon Gate、P0/P1/P2、五章整体审查。
